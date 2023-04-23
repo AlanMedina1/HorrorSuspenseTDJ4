@@ -8,7 +8,7 @@ public class lightSwitch : MonoBehaviour
     public bool toggle, interactable;
     public Renderer lightBulb;
     public Material offlight, onlight;
-    public AudioSource lightSwitchSound;
+    //public AudioSource lightSwitchSound;
 
     void OnTriggerStay(Collider other)
     {
@@ -25,12 +25,12 @@ public class lightSwitch : MonoBehaviour
         {
             inttext.SetActive(false);
             interactable = false;
-        }    
+        }
     }
 
     void Update()
     {
-        if(interactable == true)
+        if (interactable == true)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -40,7 +40,7 @@ public class lightSwitch : MonoBehaviour
                 switchAnim.SetTrigger("press");
             }
         }
-        if(toggle == false)
+        if (toggle == false)
         {
             light.SetActive(false);
             lightBulb.material = offlight;
