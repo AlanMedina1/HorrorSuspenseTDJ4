@@ -13,7 +13,7 @@ public class SC_FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-
+    public AudioSource footstepsSound, sprintSound;
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -42,6 +42,26 @@ public class SC_FPSController : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
+        //Sonido de pasos y correr
+           if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)){
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                footstepsSound.enabled = false;
+                sprintSound.enabled = true;
+            }
+            else
+            {
+                footstepsSound.enabled = true;
+                sprintSound.enabled = false;
+            }
+        }
+        else
+        {
+            footstepsSound.enabled = false;
+            sprintSound.enabled = false;
+        }
+    
+        
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
             moveDirection.y = jumpSpeed;
