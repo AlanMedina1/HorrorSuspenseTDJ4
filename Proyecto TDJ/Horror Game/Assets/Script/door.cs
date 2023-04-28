@@ -7,6 +7,7 @@ public class door : MonoBehaviour
     public GameObject PickUp;
     public bool interactable, toggle;
     public Animator doorAnim;
+    public AudioSource doorSound;
 
     void OnTriggerStay(Collider other)
     {
@@ -35,11 +36,13 @@ public class door : MonoBehaviour
                 {
                     doorAnim.ResetTrigger("close");
                     doorAnim.SetTrigger("open");
+                    doorSound.Play();
                 }
                 if (toggle == false)
                 {
                     doorAnim.ResetTrigger("open");
                     doorAnim.SetTrigger("close");
+                    doorSound.Play();
                 }
                 PickUp.SetActive(false);
                 interactable = false;
