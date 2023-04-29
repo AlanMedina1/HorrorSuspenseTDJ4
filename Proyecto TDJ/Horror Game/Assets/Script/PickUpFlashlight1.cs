@@ -6,6 +6,10 @@ public class PickUpFlashlight1 : MonoBehaviour
 {
     public GameObject FlashLightOnPlayer;
     public GameObject PickUp;
+   
+    public AudioSource turnOnsound;
+    public AudioSource turnOffsound;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +17,7 @@ public class PickUpFlashlight1 : MonoBehaviour
         PickUp.SetActive(false);
     }
 
-    private void OnTriggerStay(Collider other)
+     void OnTriggerStay(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
@@ -22,10 +26,11 @@ public class PickUpFlashlight1 : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 this.gameObject.SetActive(false);
-
                 FlashLightOnPlayer.SetActive(true);
-
                 PickUp.SetActive(false);
+
+                turnOnsound.Play();
+         
             }
         }
     }
@@ -34,4 +39,6 @@ public class PickUpFlashlight1 : MonoBehaviour
     {
         PickUp.SetActive(false);
     }
+
 }
+
