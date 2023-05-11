@@ -10,11 +10,13 @@ public class ObjectGrabbable : MonoBehaviour
     {
         objectRigidbody = GetComponent<Rigidbody>();
     }
+
     public void Grab(Transform objectGrabPointTransform)
     {
         this.objectGrabPointTransform = objectGrabPointTransform;
         objectRigidbody.useGravity = false;
     }
+
     public void Drop()
     {
         this.objectGrabPointTransform = null;

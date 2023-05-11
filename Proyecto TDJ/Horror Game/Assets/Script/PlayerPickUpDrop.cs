@@ -14,9 +14,11 @@ public class PlayerPickUpDrop : MonoBehaviour
    private void Update()
     {
         Physics.Raycast(transform.position, transform.forward);  // moves that object with your player's camera
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetMouseButtonDown(0))
         {
-            if(objectGrabbable == null) { 
+            if(objectGrabbable == null) 
+           { 
+                //no sosteniendo algo, lo agarra
             float pickUpDistance = 10f;
             if(Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask))
             {
@@ -25,13 +27,17 @@ public class PlayerPickUpDrop : MonoBehaviour
                 {
                     objectGrabbable.Grab(objectGrabPointTransform);
                 }
-
-            } /*else
+                else
                 {
-                    objectGrabbable.Drop();
-                    objectGrabbable = null;
-                }*/
-            }
+                        Debug.Log("Dropped");
+                        //si ya tiene algo, entonces lo suelta
+                        objectGrabbable.Drop();
+                        objectGrabbable = null;
+                        
+                }
+            } 
+         
+           }
 
         }
     }
