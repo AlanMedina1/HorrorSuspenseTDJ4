@@ -1999,7 +1999,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 41.52771
+  field of view: 37.43586
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2051,8 +2051,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.65236413, z: 12.920294}
-  m_Center: {x: 0.0000062386075, y: -0.19750848, z: 5.960299}
+  m_Size: {x: 1, y: 0.40509638, z: 12.760656}
+  m_Center: {x: 0.0000065366908, y: -0.32114184, z: 6.0401206}
 --- !u!4 &1178142001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7302122817117629420, guid: 59e3e4c8b54f45244a3dc64cf780970f, type: 3}
@@ -2365,7 +2365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248599489}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.67, y: -0.32, z: 5.94}
+  m_LocalPosition: {x: 0.67, y: -0.32, z: 4.08}
   m_LocalScale: {x: 0.3744195, y: 0.35106885, z: 0.266073}
   m_Children:
   - {fileID: 1253474438}
@@ -2416,18 +2416,18 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.8113208, g: 0.80345124, b: 0.5319509, a: 1}
   m_Intensity: 20
-  m_Range: 52.533222
-  m_SpotAngle: 35.347267
-  m_InnerSpotAngle: 19.862524
+  m_Range: 80
+  m_SpotAngle: 20.74311
+  m_InnerSpotAngle: 14.761932
   m_CookieSize: 10
   m_Shadows:
     m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Bias: 0.5
+    m_NormalBias: 0.3
+    m_NearPlane: 0.3
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -2446,7 +2446,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: b1f608830ead1aa4eaa1750f9ff5c10a, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -3920,7 +3920,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1366
+  m_Name: pb_Mesh-2628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
