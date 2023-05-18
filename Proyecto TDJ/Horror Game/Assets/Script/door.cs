@@ -9,9 +9,13 @@ public class door : MonoBehaviour
     public Animator doorAnim;
     public AudioSource doorSound;
 
+    void Start()
+    {
+        interactable = false;
+    }
     void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("MainCamera"))
+        if(other.CompareTag("Reach"))
         {
             PickUp.SetActive(true);
             interactable = true;
@@ -19,7 +23,7 @@ public class door : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        if (other.CompareTag("Reach"))
         {
             PickUp.SetActive(false);
             interactable = false;
