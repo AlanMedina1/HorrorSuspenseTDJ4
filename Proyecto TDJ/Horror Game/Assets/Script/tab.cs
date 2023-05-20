@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class tab : MonoBehaviour
 {
+
+    public GameObject tabObj;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,10 +13,15 @@ public class tab : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(Input.GetKeyDown(KeyCode.Tab))
+        if(Input.GetKey(KeyCode.Tab))
         {
+           tabObj.SetActive(true);
+         }
+         else
+         {
+           tabObj.SetActive(false);
 
         }
     }

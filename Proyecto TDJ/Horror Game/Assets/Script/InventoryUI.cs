@@ -5,10 +5,10 @@ using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
-    /*private TextMeshProUGUI rosesText;
+    private TextMeshProUGUI rosesText;
     private TextMeshProUGUI candlesText;
     private TextMeshProUGUI lighterText;
-
+    
     void Start()
     {
         rosesText = GetComponent<TextMeshProUGUI>();
@@ -16,10 +16,12 @@ public class InventoryUI : MonoBehaviour
         lighterText = GetComponent<TextMeshProUGUI>();
     }
 
+    
     public void UpdateRosesText(PlayerInventory playerInventory)
     {
         rosesText.text = playerInventory.NumberOfRoses.ToString();
     }
+    
 
     public void UpdateCandlesText(PlayerInventory playerInventory)
     {
@@ -29,5 +31,5 @@ public class InventoryUI : MonoBehaviour
     public void UpdateLighterText(PlayerInventory playerInventory)
     {
         lighterText.text = playerInventory.NumberOfLighter.ToString();
-    }*/
+    }
 }
