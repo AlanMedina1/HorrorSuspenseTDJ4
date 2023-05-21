@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class tab : MonoBehaviour
 {
-
+    public AudioSource paperSound;
     public GameObject tabObj;
     // Start is called before the first frame update
     void Start()
@@ -18,11 +18,28 @@ public class tab : MonoBehaviour
         if(Input.GetKey(KeyCode.Tab))
         {
            tabObj.SetActive(true);
-         }
-         else
-         {
-           tabObj.SetActive(false);
 
         }
+         else
+         {
+            Invoke("HojaOff", 0.2f);
+        }
     }
+
+    void HojaOff()
+    {
+        tabObj.SetActive(false);
+        paperSound.Play();
+    }
+    /*void HojaOn()
+    {
+        tabObj.SetActive(true);
+        paperSound.Play();
+    }
+
+    void HojaOff()
+    {
+        tabObj.SetActive(false);
+        paperSound.Play();
+    }*/
 }
