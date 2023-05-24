@@ -19,47 +19,8 @@ public class Collectables : MonoBehaviour
     {
         Debug.Log("OnTriggerEnter");
 
-    
-        
-        //puede servir
-         /*if (other.CompareTag("Rosas"))
-         {
-             if (playerInventory != null)
-             {
-                 playerInventory.RosesCollected();
-                 gameObject.SetActive(false);
-                 RosesCollect.Play();
-             }
-         }*/
-
-        /*if (other.CompareTag("Rosas"))/*playerInventory != null
-        {
-            playerInventory.RosesCollected();
-            gameObject.SetActive(false);
-            RosesCollect.Play();
-        }
-
-        if (other.CompareTag("Velas"))
-        {
-            playerInventory.CandlesCollected();
-            gameObject.SetActive(false);
-            //public AudioSource CandlesCollect;
-        }
-        if (other.CompareTag("Encendedor"))
-        {
-            playerInventory.LighterCollected();
-            gameObject.SetActive(false);
-            //public AudioSource LighterCollect;
-        }*/
-
-        /*if (playerInventory = null && other.CompareTag("Encendedor"))
-        {
-            playerInventory.LighterCollected();
-            gameObject.SetActive(false);
-            //public AudioSource LighterCollect;
-        }*/
-
-        //codigo sofi:
+        //if (Input.GetKey(KeyCode.E))
+        //{
         if (other.CompareTag("Rosas")){
           playerInventory.RosesCollected();
           Destroy(other.gameObject);
@@ -80,6 +41,6 @@ public class Collectables : MonoBehaviour
           Debug.Log("entró compare tag Encendedor");
           LighterCollect.Play();
         }
+        //}
     }
-
 }
