@@ -1,20 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class ObjectGrabbable : MonoBehaviour
 {
     private Rigidbody objectRigidbody;
     private Transform objectGrabPointTransform;
+  
+    
+    
     private void Awake()
     {
         objectRigidbody = GetComponent<Rigidbody>();
+        
     }
+
+  
 
     public void Grab(Transform objectGrabPointTransform)
     {
-        this.objectGrabPointTransform = objectGrabPointTransform;
-        objectRigidbody.useGravity = false;
+        
+         this.objectGrabPointTransform = objectGrabPointTransform;
+         objectRigidbody.useGravity = false;
+    
+        
+       
+        
+    
+
+        
     }
 
     public void Drop()
@@ -32,4 +46,5 @@ public class ObjectGrabbable : MonoBehaviour
             objectRigidbody.MovePosition(objectGrabPointTransform.position);
         } 
     }
+    
 }

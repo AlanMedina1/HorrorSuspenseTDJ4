@@ -10,14 +10,14 @@ public class PlayerInventory : MonoBehaviour
     public int NumberOfCandles=0; //{ get; private set; }
     public int NumberOfLighter=0; //{ get; private set; }
     
-    // public sonidoRepentino sonidoRepentino;
+    
     public UnityEvent <PlayerInventory> OnRosesCollected;
     public UnityEvent <PlayerInventory> OnCandlesCollected;
     public UnityEvent <PlayerInventory> OnLighterCollected;
-    
+    public Collectables colectables;
 
     void Start(){
-        //sonidoRepentino = GetComponent<sonidoRepentino>();
+        
 
     }
     public void RosesCollected ()
@@ -26,9 +26,9 @@ public class PlayerInventory : MonoBehaviour
         Debug.Log("NumberofRoses: " + NumberOfRoses);
         OnRosesCollected.Invoke(this);
 
-        /*if(NumberOfRoses== 6) {
-            sonidoRepentino.playSonido();
-        }*/
+        if(NumberOfRoses == 6) {
+            colectables.CollectSteps=1;
+        }
     }
     
 
@@ -37,6 +37,10 @@ public class PlayerInventory : MonoBehaviour
         NumberOfCandles++;
         OnCandlesCollected.Invoke(this);
         Debug.Log("NumberofCandles: " + NumberOfCandles);
+
+        if(NumberOfCandles == 2) {
+            colectables.CollectSteps=2;
+        }
     }
 
     public void LighterCollected()

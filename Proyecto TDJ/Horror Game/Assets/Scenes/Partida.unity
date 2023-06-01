@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1871,6 +1871,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 1105195529}
+  CollectSteps: 0
 --- !u!114 &113722294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,6 +1932,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  colectables: {fileID: 113722293}
 --- !u!114 &113722295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4263,6 +4265,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &237055996
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,6 +4926,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &267479435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7353,7 +7357,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15724,7 +15728,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -16014,6 +16018,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &840934561
 GameObject:
   m_ObjectHideFlags: 0
@@ -16777,7 +16782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879082200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.24799997, y: 0.35600007, z: 0}
+  m_LocalPosition: {x: 0.24799997, y: 0.356, z: 0.0064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1110513116}
@@ -16806,8 +16811,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: -0.000000059604645, y: 0.00044127658, z: -0.021838024}
+  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.056517538}
+  m_Center: {x: -0.00000006017231, y: 0.00044127644, z: -0.015947979}
 --- !u!23 &879082204
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16865,7 +16870,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879082200}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
@@ -16873,6 +16878,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &880573502
 GameObject:
   m_ObjectHideFlags: 0
@@ -18654,6 +18660,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &966287954
 GameObject:
   m_ObjectHideFlags: 0
@@ -21486,6 +21493,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!65 &1147538586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21870,6 +21878,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &1175305908
 GameObject:
   m_ObjectHideFlags: 0
@@ -23592,7 +23601,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1536
+  m_Name: pb_Mesh-19242
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -35660,6 +35669,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &1934109953
 GameObject:
   m_ObjectHideFlags: 0
@@ -39225,6 +39235,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  CollectSteps: 0
 --- !u!1 &2102635169
 GameObject:
   m_ObjectHideFlags: 0
