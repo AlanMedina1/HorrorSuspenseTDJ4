@@ -2282,6 +2282,7 @@ GameObject:
   - component: {fileID: 113722295}
   - component: {fileID: 113722294}
   - component: {fileID: 113722293}
+  - component: {fileID: 113722296}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -2301,10 +2302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 962509089}
-  LighterCollect: {fileID: 1105195529}
-  CollectSteps: 0
 --- !u!114 &113722294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2365,7 +2362,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  colectables: {fileID: 113722293}
+  pickupcosas: {fileID: 113722296}
 --- !u!114 &113722295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,6 +2381,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 375
   objectDirectionObject: {fileID: 217711447}
+--- !u!114 &113722296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113722292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!143 &113722297
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2503,6 +2515,7 @@ Transform:
   - {fileID: 941792756}
   - {fileID: 1709890332}
   - {fileID: 217711447}
+  - {fileID: 996597609}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 207.276, z: 0}
@@ -4782,6 +4795,7 @@ GameObject:
   - component: {fileID: 234639063}
   - component: {fileID: 234639062}
   - component: {fileID: 234639061}
+  - component: {fileID: 234639066}
   m_Layer: 0
   m_Name: rosacoll2
   m_TagString: Rosas
@@ -4826,8 +4840,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: -0.000000052154064, y: 0.00044121698, z: -0.021838017}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &234639063
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4885,15 +4899,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234639059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &234639066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234639059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &237055996
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,8 +5494,9 @@ GameObject:
   - component: {fileID: 264789605}
   - component: {fileID: 264789604}
   - component: {fileID: 264789603}
-  - component: {fileID: 264789602}
   - component: {fileID: 264789601}
+  - component: {fileID: 264789602}
+  - component: {fileID: 264789606}
   m_Layer: 0
   m_Name: rosacoll5
   m_TagString: Rosas
@@ -5515,8 +5541,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: 0, y: 0.00044127658, z: -0.02183801}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &264789603
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5579,10 +5605,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &264789606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264789599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &267479435
 GameObject:
   m_ObjectHideFlags: 0
@@ -17867,8 +17904,9 @@ GameObject:
   - component: {fileID: 833324883}
   - component: {fileID: 833324882}
   - component: {fileID: 833324881}
-  - component: {fileID: 833324880}
   - component: {fileID: 833324879}
+  - component: {fileID: 833324880}
+  - component: {fileID: 833324884}
   m_Layer: 0
   m_Name: rosacoll4
   m_TagString: Rosas
@@ -17913,8 +17951,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: 0.000000029802322, y: 0.00044127658, z: -0.021838024}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &833324881
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17977,10 +18015,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &833324884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833324877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!4 &839423607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6104485583933804443, guid: 1b7ac749de9164278ab354e436c4445b, type: 3}
@@ -18806,8 +18855,9 @@ GameObject:
   - component: {fileID: 879082206}
   - component: {fileID: 879082205}
   - component: {fileID: 879082204}
-  - component: {fileID: 879082203}
   - component: {fileID: 879082202}
+  - component: {fileID: 879082203}
+  - component: {fileID: 879082207}
   m_Layer: 0
   m_Name: rosacoll4
   m_TagString: Rosas
@@ -18852,8 +18902,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.056517538}
-  m_Center: {x: -0.00000006017231, y: 0.00044127644, z: -0.015947979}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &879082204
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18916,10 +18966,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &879082207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879082200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &881960064
 GameObject:
   m_ObjectHideFlags: 0
@@ -20703,10 +20764,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 964117183}
-  - component: {fileID: 964117187}
   - component: {fileID: 964117186}
   - component: {fileID: 964117185}
   - component: {fileID: 964117184}
+  - component: {fileID: 964117187}
   m_Layer: 0
   m_Name: vela (1)
   m_TagString: Velas
@@ -20722,7 +20783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964117182}
   m_LocalRotation: {x: -0.54140586, y: 0.45484033, z: -0.45484036, w: 0.54140574}
-  m_LocalPosition: {x: 19.039, y: 0.667, z: -6.475}
+  m_LocalPosition: {x: 18.986, y: 0.667, z: -6.277}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 2017475035}
@@ -20739,8 +20800,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.05853999, y: 0.09470158, z: 0.1138236}
-  m_Center: {x: -0.00000023841858, y: -0.003913655, z: 0.040528156}
+  m_Size: {x: 0.06744902, y: 0.17223597, z: 0.19592005}
+  m_Center: {x: -0.00000023274248, y: 0.020441215, z: 0.008140995}
 --- !u!23 &964117185
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20801,13 +20862,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 964117182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 0}
-  CandlesCollect: {fileID: 962509089}
-  LighterCollect: {fileID: 0}
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &966287954
 GameObject:
   m_ObjectHideFlags: 0
@@ -21342,6 +21402,98 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990997082}
   m_Mesh: {fileID: 4202382290929607338, guid: 8b8fa4c7f8f605a4a894e04d0f7f5c42, type: 3}
+--- !u!1 &996597607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 996597609}
+  - component: {fileID: 996597608}
+  m_Layer: 0
+  m_Name: playerInventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &996597608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996597607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefcc0e74f590a74b8f48fe8e6599bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberOfRoses: 0
+  NumberOfCandles: 0
+  NumberOfLighter: 0
+  OnRosesCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1816844051}
+        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
+        m_MethodName: UpdateRosesText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnCandlesCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 788287508}
+        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
+        m_MethodName: UpdateCandlesText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnLighterCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2008840857}
+        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
+        m_MethodName: UpdateLighterText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  pickupcosas: {fileID: 113722296}
+--- !u!4 &996597609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996597607}
+  m_LocalRotation: {x: -0, y: -0.9718052, z: -0, w: -0.23578542}
+  m_LocalPosition: {x: -44.659203, y: -2.698639, z: 128.52364}
+  m_LocalScale: {x: 0.33407882, y: 0.19755776, z: 0.65363014}
+  m_Children: []
+  m_Father: {fileID: 113722302}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1006428134
 GameObject:
   m_ObjectHideFlags: 0
@@ -23805,6 +23957,7 @@ GameObject:
   - component: {fileID: 1147538584}
   - component: {fileID: 1147538583}
   - component: {fileID: 1147538586}
+  - component: {fileID: 1147538587}
   m_Layer: 0
   m_Name: encendedor
   m_TagString: Encendedor
@@ -23889,10 +24042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 0}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 1105195529}
-  CollectSteps: 0
 --- !u!65 &1147538586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23906,6 +24055,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.21325412, y: 0.21699235, z: 0.033334624}
   m_Center: {x: 0.096626624, y: 0.000035717334, z: 0.0066672456}
+--- !u!114 &1147538587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147538581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &1150101443
 GameObject:
   m_ObjectHideFlags: 0
@@ -24173,10 +24337,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171122366}
-  - component: {fileID: 1171122370}
   - component: {fileID: 1171122369}
   - component: {fileID: 1171122368}
   - component: {fileID: 1171122367}
+  - component: {fileID: 1171122370}
   m_Layer: 0
   m_Name: vela (2)
   m_TagString: Velas
@@ -24271,13 +24435,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171122365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 0}
-  CandlesCollect: {fileID: 962509089}
-  LighterCollect: {fileID: 0}
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &1175305908
 GameObject:
   m_ObjectHideFlags: 0
@@ -26260,7 +26423,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-168986
+  m_Name: pb_Mesh-2072
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40559,8 +40722,9 @@ GameObject:
   - component: {fileID: 1929120259}
   - component: {fileID: 1929120258}
   - component: {fileID: 1929120257}
-  - component: {fileID: 1929120256}
   - component: {fileID: 1929120255}
+  - component: {fileID: 1929120256}
+  - component: {fileID: 1929120260}
   m_Layer: 0
   m_Name: rosacoll3
   m_TagString: Rosas
@@ -40605,8 +40769,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: -0.000000059604645, y: 0.00044121698, z: -0.021838017}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &1929120257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40669,10 +40833,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &1929120260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929120253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &1934109953
 GameObject:
   m_ObjectHideFlags: 0
@@ -44647,8 +44822,9 @@ GameObject:
   - component: {fileID: 2091005557}
   - component: {fileID: 2091005556}
   - component: {fileID: 2091005555}
-  - component: {fileID: 2091005554}
   - component: {fileID: 2091005553}
+  - component: {fileID: 2091005554}
+  - component: {fileID: 2091005558}
   m_Layer: 0
   m_Name: rosacoll
   m_TagString: Rosas
@@ -44693,8 +44869,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.028819963, y: 0.02838213, z: 0.068297565}
-  m_Center: {x: -0.000000029802322, y: 0.00044121698, z: -0.021838024}
+  m_Size: {x: 0.044317167, y: 0.04503384, z: 0.073277175}
+  m_Center: {x: 0.00014770485, y: 0.00020811216, z: -0.017328618}
 --- !u!23 &2091005555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44757,10 +44933,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18d05401d914c84c8b285cc3b8f4639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 0}
-  LighterCollect: {fileID: 0}
+--- !u!114 &2091005558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091005551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
   CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &2102635169
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpFlashlight1 : MonoBehaviour
 {
+    //se le agrega al objeto que se pickea
     public GameObject FlashLightOnPlayer;
     public GameObject PickUp;
    

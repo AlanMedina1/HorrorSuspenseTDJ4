@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Collectables : MonoBehaviour
-{
+{ 
+  /*
+  
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;
@@ -59,5 +61,5 @@ public class Collectables : MonoBehaviour
           
         }
         //}
-    }
+    }*/
 }
