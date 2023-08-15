@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class door : MonoBehaviour
 {
-    public GameObject PickUp;
+    public GameObject PickUp, key, lockedText;
     public bool interactable, toggle;
     public Animator doorAnim;
     public AudioSource doorSound;
+    public AudioSource doorSounderror;
 
     void Start()
     {
@@ -35,23 +36,38 @@ public class door : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
            {
-                toggle = !toggle;
-                if (toggle == true)
+                if(key.active == false)
                 {
-                    doorAnim.ResetTrigger("close");
-                    doorAnim.SetTrigger("open");
-                    doorSound.Play();
+                    toggle = !toggle;
+                    if (toggle == true)
+                    {
+                        doorAnim.ResetTrigger("close");
+                        doorAnim.SetTrigger("open");
+                        doorSound.Play();
+                    }
+                    if (toggle == false)
+                    {
+                        doorAnim.ResetTrigger("open");
+                        doorAnim.SetTrigger("close");
+                        doorSound.Play();
+                    }
+                    PickUp.SetActive(false);
+                    interactable = false;
                 }
-                if (toggle == false)
+               if(key.active == true)
                 {
-                    doorAnim.ResetTrigger("open");
-                    doorAnim.SetTrigger("close");
-                    doorSound.Play();
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                    doorSounderror.Play();
                 }
-                PickUp.SetActive(false);
-                interactable = false;
             }
-    }
+        }
    
-}
+    }
+    IEnumerator disableText()
+    {
+        yield return new WaitForSeconds(1.0f);
+        lockedText.SetActive(false);
+    }
 }
