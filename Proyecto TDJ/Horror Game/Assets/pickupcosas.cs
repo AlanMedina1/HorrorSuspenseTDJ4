@@ -6,6 +6,9 @@ public class pickupcosas : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject PickUp;
+    public AudioSource RosesCollect;
+    public AudioSource CandlesCollect;
+    public AudioSource LighterCollect;
 
     public int CollectSteps = 0;
     public PlayerInventory playerInventory;
@@ -37,7 +40,7 @@ public class pickupcosas : MonoBehaviour
                        playerInventory.RosesCollected(); 
                        
                        
-                       // RosesCollect.Play(); sonideishon
+                       RosesCollect.Play(); //sonideishon
                        
 
                     }
@@ -50,8 +53,8 @@ public class pickupcosas : MonoBehaviour
                      
                      playerInventory.CandlesCollected();
                      
-                     
-                     //CandlesCollect.Play();
+                   
+                     CandlesCollect.Play();
 
                     }
                 }
@@ -61,7 +64,7 @@ public class pickupcosas : MonoBehaviour
                       playerInventory.LighterCollected();
                       
                      
-                     //LighterCollect.Play();
+                     LighterCollect.Play();
 
                     }
                 }
