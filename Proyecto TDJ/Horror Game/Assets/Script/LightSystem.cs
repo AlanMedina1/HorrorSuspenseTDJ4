@@ -6,7 +6,7 @@ public class LightSystem : MonoBehaviour
 {
     public Light lightOB;
 
-    public AudioSource lightSound;
+    //public AudioSource lightSound;
     public float minTime;
     public float maxTime;
     public float timer;
@@ -32,7 +32,7 @@ public class LightSystem : MonoBehaviour
         {
             lightOB.enabled = !lightOB.enabled;
             timer = Random.Range(minTime, maxTime);
-            lightSound.Play();
+            //lightSound.Play();
         }
     }
 

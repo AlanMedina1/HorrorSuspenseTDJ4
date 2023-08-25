@@ -26,7 +26,7 @@ public class PlayerInventory : MonoBehaviour
         Debug.Log("NumberofRoses: " + NumberOfRoses);
         OnRosesCollected.Invoke(this);
 
-        /*if(NumberOfRoses == 6) {
+       /* if(NumberOfRoses == 6) {
             pickupcosas.CollectSteps=1;
         }*/
     }
