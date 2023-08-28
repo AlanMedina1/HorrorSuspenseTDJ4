@@ -9,11 +9,12 @@ public class PlayerInventory : MonoBehaviour
     
     public int NumberOfCandles = 0; //{ get; private set; }
     public int NumberOfLighter = 0; //{ get; private set; }
-    
-    
+    public int NumberOfGifts = 0; 
+
     public UnityEvent <PlayerInventory> OnRosesCollected;
     public UnityEvent <PlayerInventory> OnCandlesCollected;
     public UnityEvent <PlayerInventory> OnLighterCollected;
+    public UnityEvent<PlayerInventory> OnGiftsCollected;
     public pickupcosas pickupcosas;
 
     void Start(){
@@ -26,7 +27,7 @@ public class PlayerInventory : MonoBehaviour
         Debug.Log("NumberofRoses: " + NumberOfRoses);
         OnRosesCollected.Invoke(this);
 
-       /* if(NumberOfRoses == 6) {
+        /*if(NumberOfRoses == 6) {
             pickupcosas.CollectSteps=1;
         }*/
     }
@@ -48,7 +49,17 @@ public class PlayerInventory : MonoBehaviour
     {
         NumberOfLighter++;
         OnLighterCollected.Invoke(this);
+
+        /*if (NumberOfLighter == 1)
+        {
+            pickupcosas.CollectSteps = 3;
+        }*/
     }
 
+    public void GiftsCollected()
+    {
+        NumberOfGifts++;
+        OnGiftsCollected.Invoke(this);
+    }
 }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.002660802, g: 0.0022143777, b: 0.006689949, a: 1}
+  m_IndirectSpecularColor: {r: 0.0026829087, g: 0.002217361, b: 0.0067098057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1386,7 +1386,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: eb75963eddb497142865fbdbe8e27ccf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.9
-  m_Pitch: 1
+  m_Pitch: 1.8
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -3828,6 +3828,7 @@ MonoBehaviour:
   NumberOfRoses: 0
   NumberOfCandles: 0
   NumberOfLighter: 0
+  NumberOfGifts: 0
   OnRosesCollected:
     m_PersistentCalls:
       m_Calls:
@@ -3873,6 +3874,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGiftsCollected:
+    m_PersistentCalls:
+      m_Calls: []
   pickupcosas: {fileID: 113722296}
 --- !u!114 &113722295
 MonoBehaviour:
@@ -3908,6 +3912,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 1105195529}
+  GiftsCollect: {fileID: 131104876}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!143 &113722297
@@ -4029,7 +4034,6 @@ Transform:
   - {fileID: 941792756}
   - {fileID: 1709890332}
   - {fileID: 217711447}
-  - {fileID: 996597609}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 40.872, z: 0}
@@ -4734,6 +4738,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8588971583474809970, guid: 5875217da78acc0489a0690e33407cac, type: 3}
   m_PrefabInstance: {fileID: 129877596}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &131104874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131104875}
+  - component: {fileID: 131104876}
+  m_Layer: 7
+  m_Name: regalito
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131104875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131104874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1709890332}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &131104876
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131104874}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3c79e1aef381c4a4cac4efbf219086d4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &136828359
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,7 +5616,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-125376
+  m_Name: pb_Mesh-32194
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7430,6 +7561,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &237055996
@@ -8282,6 +8414,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &267479435
@@ -14772,101 +14905,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465072383}
   m_Mesh: {fileID: 2534964839176971238, guid: 15287441765afb743a635565a6ec3783, type: 3}
---- !u!1 &466962488
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 466962489}
-  - component: {fileID: 466962492}
-  - component: {fileID: 466962491}
-  - component: {fileID: 466962490}
-  m_Layer: 5
-  m_Name: PickUp (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &466962489
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466962488}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2584314, y: 1.2502, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1894817642}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 53}
-  m_SizeDelta: {x: 216.3288, y: 106.8}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &466962490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466962488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 2, y: -2}
-  m_UseGraphicAlpha: 1
---- !u!114 &466962491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466962488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 123
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: " Presion\xE1 [E] \n"
---- !u!222 &466962492
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466962488}
-  m_CullTransparentMesh: 1
 --- !u!1 &471009367
 GameObject:
   m_ObjectHideFlags: 0
@@ -19905,19 +19943,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5431771
+      value: 0.99770564
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000001737509
+      value: 0.000000319145
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8396181
+      value: 0.06770186
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000026857614
+      value: 0.000000021656415
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19925,7 +19963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 114.2
+      value: 7.764
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2e96f23f053947469f719b428bcf582, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -25285,6 +25323,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!4 &839423607 stripped
@@ -26512,6 +26551,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1001 &881467153
@@ -28114,7 +28154,7 @@ RectTransform:
   - {fileID: 2008840856}
   - {fileID: 2026119295}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -28502,7 +28542,8 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 0}
-  CollectSteps: 1
+  GiftsCollect: {fileID: 0}
+  CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &966287954
 GameObject:
@@ -29255,98 +29296,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990997082}
   m_Mesh: {fileID: 4202382290929607338, guid: 8b8fa4c7f8f605a4a894e04d0f7f5c42, type: 3}
---- !u!1 &996597607
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 996597609}
-  - component: {fileID: 996597608}
-  m_Layer: 0
-  m_Name: playerInventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &996597608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996597607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fefcc0e74f590a74b8f48fe8e6599bc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumberOfRoses: 0
-  NumberOfCandles: 0
-  NumberOfLighter: 0
-  OnRosesCollected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1816844051}
-        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
-        m_MethodName: UpdateRosesText
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnCandlesCollected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 788287508}
-        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
-        m_MethodName: UpdateCandlesText
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnLighterCollected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2008840857}
-        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
-        m_MethodName: UpdateLighterText
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  pickupcosas: {fileID: 113722296}
---- !u!4 &996597609
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996597607}
-  m_LocalRotation: {x: -0, y: -0.9718052, z: -0, w: -0.23578542}
-  m_LocalPosition: {x: -44.659203, y: -2.698639, z: 128.52364}
-  m_LocalScale: {x: 0.33407882, y: 0.19755776, z: 0.65363014}
-  m_Children: []
-  m_Father: {fileID: 113722302}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1006428134
 GameObject:
   m_ObjectHideFlags: 0
@@ -32275,7 +32224,8 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 1105195529}
-  CollectSteps: 2
+  GiftsCollect: {fileID: 0}
+  CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &1150101443
 GameObject:
@@ -32475,7 +32425,7 @@ RectTransform:
   m_LocalScale: {x: 1.42, y: 1.49, z: 1}
   m_Children: []
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -33130,7 +33080,8 @@ MonoBehaviour:
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 0}
-  CollectSteps: 1
+  GiftsCollect: {fileID: 0}
+  CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &1175305908
 GameObject:
@@ -33440,7 +33391,7 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -38925,7 +38876,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: eb75963eddb497142865fbdbe8e27ccf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.9
-  m_Pitch: 1.55
+  m_Pitch: 1.8
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -49790,6 +49741,7 @@ Transform:
   - {fileID: 962509088}
   - {fileID: 2141242848}
   - {fileID: 357811157}
+  - {fileID: 131104875}
   m_Father: {fileID: 113722302}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53921,7 +53873,7 @@ RectTransform:
   - {fileID: 1187273375}
   - {fileID: 1627882041}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -55581,7 +55533,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 466962489}
   - {fileID: 1991724987}
   - {fileID: 1151158722}
   - {fileID: 1186427609}
@@ -56718,6 +56669,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &1932651026
@@ -58930,7 +58882,7 @@ RectTransform:
   m_LocalScale: {x: 1.2584314, y: 1.2502, z: 1}
   m_Children: []
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -60403,31 +60355,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99999905
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.001059111
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.0007639837
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0004491738
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -0.121
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -0.088
       objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.052
       objectReference: {fileID: 0}
     - target: {fileID: 7690519952026649423, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_Name
@@ -62189,6 +62141,7 @@ MonoBehaviour:
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
   CollectSteps: 0
   playerInventory: {fileID: 113722294}
 --- !u!1 &2091101772
@@ -63110,7 +63063,7 @@ RectTransform:
   - {fileID: 446441692}
   - {fileID: 780324526}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -64916,7 +64869,7 @@ GameObject:
   - component: {fileID: 7554405012790086682}
   m_Layer: 0
   m_Name: Gift_CubeTiny_LOD0
-  m_TagString: Untagged
+  m_TagString: Regalo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65020,6 +64973,7 @@ GameObject:
   - component: {fileID: 5126980060966189344}
   - component: {fileID: 1226237722134092562}
   - component: {fileID: 4209938030670126822}
+  - component: {fileID: 1242249678238413136}
   m_Layer: 0
   m_Name: Door.009
   m_TagString: Untagged
@@ -65027,6 +64981,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &1242249678238413136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242249678238413135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013306664, y: 0.006109635, z: 0.021}
+  m_Center: {x: 0.00036892152, y: 0.0017548727, z: 0.010500003}
 --- !u!33 &1250496712786564348
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -66355,6 +66322,7 @@ GameObject:
   - component: {fileID: 8208105499617665870}
   - component: {fileID: 5179021272370098877}
   - component: {fileID: 2057983357074702083}
+  - component: {fileID: 2057983357074702085}
   m_Layer: 0
   m_Name: Panel.006
   m_TagString: Untagged
@@ -66400,7 +66368,20 @@ MonoBehaviour:
   toggle: 0
   doorAnim: {fileID: 2057983357074702083}
   doorSound: {fileID: 1358039601}
-  doorSounderror: {fileID: 0}
+  doorSounderror: {fileID: 357811158}
+--- !u!65 &2057983357074702085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057983357074702082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.008100004, y: 0.0011687145, z: 0.020050002}
+  m_Center: {x: -0.0040499563, y: 0.00006350255, z: 0.010025004}
 --- !u!4 &2058686834064682221
 Transform:
   m_ObjectHideFlags: 0
@@ -68137,6 +68118,7 @@ GameObject:
   - component: {fileID: 1662700377361701166}
   - component: {fileID: 2993134717919196992}
   - component: {fileID: 6089913624520053177}
+  - component: {fileID: 3274654587792971828}
   m_Layer: 0
   m_Name: Panel.010
   m_TagString: Untagged
@@ -68144,6 +68126,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &3274654587792971828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3274654587792971827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.023965847, y: 0.012665158, z: 0.020050006}
+  m_Center: {x: -0.00565932, y: -0.004086294, z: 0.010025003}
 --- !u!23 &3342148434116576099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70735,22 +70730,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8463403752744700519}
   m_Mesh: {fileID: -5316529544477558450, guid: d31d5ee64aa9842479ca86e6b55394de, type: 3}
---- !u!54 &4687034299311614448
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5605531337559069868}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &4687034299311614463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70759,7 +70738,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5605531337559069868}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.08054317, y: 0.08457526, z: 0.08054318}
@@ -72425,15 +72404,34 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5080352445003402774}
-  - component: {fileID: 4687034299311614448}
   - component: {fileID: 4687034299311614463}
+  - component: {fileID: 5605531337559069869}
   m_Layer: 0
   m_Name: RegaloCocinaAzul
-  m_TagString: Untagged
+  m_TagString: Regalo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5605531337559069869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605531337559069868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  RosesCollect: {fileID: 0}
+  CandlesCollect: {fileID: 0}
+  LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 131104876}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!4 &5616933451189196152
 Transform:
   m_ObjectHideFlags: 0
@@ -74764,27 +74762,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7936144114232961207}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.08054317, y: 0.08457526, z: 0.08054318}
-  m_Center: {x: 0.000033795837, y: 0.04234011, z: 0.000000009313227}
---- !u!54 &7125733476571321835
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7936144114232961207}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 0.114199124, y: 0.08457524, z: 0.080543175}
+  m_Center: {x: -0.016794182, y: 0.04234011, z: 0.000000008602465}
 --- !u!33 &7158779232597040816
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -75022,7 +75004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7936144114232961207}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -95.52004, y: -5.5719457, z: 122.940025}
+  m_LocalPosition: {x: -94.38, y: -5.5719457, z: 122.940025}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children:
   - {fileID: 4575221820790766896}
@@ -76104,15 +76086,34 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7307382498912760333}
-  - component: {fileID: 7125733476571321835}
   - component: {fileID: 7125733476571321828}
+  - component: {fileID: 7936144114232961208}
   m_Layer: 0
   m_Name: RegaloCocinaRojo
-  m_TagString: Untagged
+  m_TagString: Regalo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7936144114232961208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936144114232961207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  RosesCollect: {fileID: 0}
+  CandlesCollect: {fileID: 0}
+  LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 131104876}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!4 &7939499862427890253
 Transform:
   m_ObjectHideFlags: 0
@@ -76310,22 +76311,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5500251967432344172}
   m_Mesh: {fileID: -462981019419857548, guid: 034a7dfb4dd4123469cce07ff8ed4634, type: 3}
---- !u!54 &8126352716410432432
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8937379632351647468}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &8126352716410432447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76334,7 +76319,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8937379632351647468}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.08054317, y: 0.08457526, z: 0.08054318}
@@ -77236,8 +77221,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8596285100504763478}
-  - component: {fileID: 8126352716410432432}
   - component: {fileID: 8126352716410432447}
+  - component: {fileID: 8937379632351647469}
   m_Layer: 0
   m_Name: RegaloPieza
   m_TagString: Untagged
@@ -77245,6 +77230,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8937379632351647469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937379632351647468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  RosesCollect: {fileID: 0}
+  CandlesCollect: {fileID: 0}
+  LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 131104876}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
 --- !u!1 &8953636374330012690
 GameObject:
   m_ObjectHideFlags: 0

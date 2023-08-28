@@ -9,6 +9,7 @@ public class pickupcosas : MonoBehaviour
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;
+    public AudioSource GiftsCollect;
 
     public int CollectSteps = 0;
     public PlayerInventory playerInventory;
@@ -70,7 +71,17 @@ public class pickupcosas : MonoBehaviour
                 }
 
                 //turnOnsound.Play();
-         
+                if (this.gameObject.tag == "Regalo")
+                {
+                    if (CollectSteps == 3)
+                    {
+                        playerInventory.GiftsCollected();
+
+
+                        GiftsCollect.Play();
+
+                    }
+                }
             }
         }
     }
@@ -83,12 +94,20 @@ public class pickupcosas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerInventory.NumberOfRoses == 6) {
+       if (playerInventory.NumberOfRoses == 6) 
+        {
             CollectSteps=1;
         }
 
-        if(playerInventory.NumberOfCandles == 2) {
+       if(playerInventory.NumberOfCandles == 2) 
+       {
             CollectSteps=2;
-        }
+       }
+
+       if (playerInventory.NumberOfLighter == 1)
+       {
+           CollectSteps = 3;
+       }
+
     }
-}
+} 
