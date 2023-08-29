@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.002660802, g: 0.0022143777, b: 0.006689949, a: 1}
+  m_IndirectSpecularColor: {r: 0.0026829087, g: 0.002217361, b: 0.0067098057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4354,6 +4354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 1105195529}
@@ -8003,6 +8004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -8856,6 +8858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -27279,6 +27282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -28507,6 +28511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -30113,7 +30118,7 @@ RectTransform:
   - {fileID: 2008840856}
   - {fileID: 2026119295}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -30498,6 +30503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 0}
@@ -31289,7 +31295,7 @@ RectTransform:
   m_Children:
   - {fileID: 1283617841}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34703,6 +34709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 1105195529}
@@ -35619,6 +35626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 962509089}
   LighterCollect: {fileID: 0}
@@ -35933,7 +35941,7 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -50985,6 +50993,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619230308}
   m_Mesh: {fileID: -462981019419857548, guid: 034a7dfb4dd4123469cce07ff8ed4634, type: 3}
+--- !u!1 &1624946226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624946227}
+  - component: {fileID: 1624946230}
+  - component: {fileID: 1624946229}
+  - component: {fileID: 1624946228}
+  m_Layer: 5
+  m_Name: lockedtext1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1624946227
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624946226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.42, y: 1.49, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1894817642}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -9, y: -59.5}
+  m_SizeDelta: {x: 216.3288, y: 106.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1624946228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624946226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1624946229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624946226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 123
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Busca las
+
+    otras cosas primero.'
+--- !u!222 &1624946230
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624946226}
+  m_CullTransparentMesh: 1
 --- !u!1 &1625373435
 GameObject:
   m_ObjectHideFlags: 0
@@ -57904,7 +58009,7 @@ RectTransform:
   - {fileID: 1187273375}
   - {fileID: 1627882041}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -59566,6 +59671,7 @@ RectTransform:
   m_Children:
   - {fileID: 1991724987}
   - {fileID: 1151158722}
+  - {fileID: 1624946227}
   - {fileID: 1186427609}
   - {fileID: 962048196}
   - {fileID: 2136406682}
@@ -60698,6 +60804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -66175,6 +66282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 686415436}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -67100,7 +67208,7 @@ RectTransform:
   - {fileID: 446441692}
   - {fileID: 780324526}
   m_Father: {fileID: 1894817642}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -68940,6 +69048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -71576,6 +71685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -74368,6 +74478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -76606,6 +76717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}
@@ -77385,6 +77497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 0}
   RosesCollect: {fileID: 0}
   CandlesCollect: {fileID: 0}
   LighterCollect: {fileID: 0}

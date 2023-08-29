@@ -5,7 +5,8 @@ using UnityEngine;
 public class pickupcosas : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject PickUp;
+    //EL LOCKED TEXT ES LO QUE SE USARIA PARA CUANDO EL OBJETO ESTÁ BLOQUEADO
+    public GameObject PickUp, lockedtext1;
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;
@@ -44,12 +45,18 @@ public class pickupcosas : MonoBehaviour
                        
                        RosesCollect.Play(); //sonideishon
                        
-
+                        
                     }
                 }
 
                 if (this.gameObject.tag == "Velas") {
-                    
+
+                    /*if (CollectSteps != 1)
+                    {
+                        lockedText.SetActive(true);
+                        StopCoroutine("disableText");
+                        StartCoroutine("disableText");
+                    }*/
 
                     if (CollectSteps == 1) {
                     
@@ -86,6 +93,14 @@ public class pickupcosas : MonoBehaviour
 
                     }
                 }
+                //ESTO SERÍA EL CODIGO DONDE SE ACCIONARIA LO DE EL OBJETO BLOQUEADO
+                /*if (key.active == true)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                    //Sounderror.Play(); ESTO SERÍA UN SONIDO DE ERROR QUE VEMOS DPS QUE PONEMOS
+                }*/
             }
         }
     }
@@ -93,6 +108,13 @@ public class pickupcosas : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         PickUp.SetActive(false);
+    }
+
+    //ESTO HACE QUE SE VEA EL TEXTO Y SE ACTIVE O DESACTIVE EN BASE A SI EL OBJETO ESTÁ BLOQUEADO
+    IEnumerator disableText()
+    {
+        yield return new WaitForSeconds(1.0f);
+        lockedtext1.SetActive(false);
     }
 
     // Update is called once per frame
