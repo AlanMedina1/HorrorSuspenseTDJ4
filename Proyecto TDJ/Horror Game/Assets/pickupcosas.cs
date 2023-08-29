@@ -28,7 +28,7 @@ public class pickupcosas : MonoBehaviour
 
             if (Input.GetKey(KeyCode.E))
             {
-                this.gameObject.SetActive(false);
+                //this.gameObject.SetActive(false);
                 
                 PickUp.SetActive(false);
 
@@ -38,6 +38,7 @@ public class pickupcosas : MonoBehaviour
                     
                     if (CollectSteps == 0){
                        
+                       this.gameObject.SetActive(false);
                        playerInventory.RosesCollected(); 
                        
                        
@@ -51,6 +52,8 @@ public class pickupcosas : MonoBehaviour
                     
 
                     if (CollectSteps == 1) {
+                    
+                     this.gameObject.SetActive(false);
                      
                      playerInventory.CandlesCollected();
                      
@@ -62,6 +65,7 @@ public class pickupcosas : MonoBehaviour
 
                 if (this.gameObject.tag == "Encendedor") {
                     if (CollectSteps== 2) {
+                      this.gameObject.SetActive(false);
                       playerInventory.LighterCollected();
                       
                      

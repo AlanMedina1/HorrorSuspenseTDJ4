@@ -7,6 +7,7 @@ public class Pruebacamara : MonoBehaviour
     public GameObject PickUp, key, lockedText;
     public bool interactable, toggle;
     public GameObject Objectactivateodesactivate;
+    public SC_FPSController player;
     //public Animator doorAnim;
    // public AudioSource doorSound;
    // public AudioSource doorSounderror;
@@ -51,10 +52,12 @@ public class Pruebacamara : MonoBehaviour
                     if (toggle == true)
                     {
                        Objectactivateodesactivate.SetActive(false); 
+                       player.enabled = true;
                     }
                     if (toggle == false)
                     {
                        Objectactivateodesactivate.SetActive(true);
+                       player.enabled = false;
                     }
                     PickUp.SetActive(false);
                     interactable = false;
