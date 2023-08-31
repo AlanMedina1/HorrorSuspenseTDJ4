@@ -5,8 +5,8 @@ using UnityEngine;
 public class pickupcosas : MonoBehaviour
 {
     // Start is called before the first frame update
-    //EL LOCKED TEXT ES LO QUE SE USARIA PARA CUANDO EL OBJETO ESTÁ BLOQUEADO
-    public GameObject PickUp, lockedtext1;
+    //EL LOCKED TEXT ES LO QUE SE USARIA PARA CUANDO EL OBJETO ESTï¿½ BLOQUEADO
+    public GameObject PickUp, lockedtext1, lockedtext2;
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;
@@ -67,6 +67,10 @@ public class pickupcosas : MonoBehaviour
                    
                      CandlesCollect.Play();
 
+                    } else if (CollectSteps == 0) {
+                        lockedtext1.SetActive(true);
+                        StopCoroutine("disableText");
+                        StartCoroutine("disableText");
                     }
                 }
 
@@ -78,6 +82,10 @@ public class pickupcosas : MonoBehaviour
                      
                      LighterCollect.Play();
 
+                    } else if (CollectSteps== 1) {
+                        lockedtext2.SetActive(true);
+                        StopCoroutine("disableText");
+                        StartCoroutine("disableText");
                     }
                 }
 
@@ -93,13 +101,13 @@ public class pickupcosas : MonoBehaviour
 
                     }
                 }
-                //ESTO SERÍA EL CODIGO DONDE SE ACCIONARIA LO DE EL OBJETO BLOQUEADO
+                //ESTO SERï¿½A EL CODIGO DONDE SE ACCIONARIA LO DE EL OBJETO BLOQUEADO
                 /*if (key.active == true)
                 {
                     lockedText.SetActive(true);
                     StopCoroutine("disableText");
                     StartCoroutine("disableText");
-                    //Sounderror.Play(); ESTO SERÍA UN SONIDO DE ERROR QUE VEMOS DPS QUE PONEMOS
+                    //Sounderror.Play(); ESTO SERï¿½A UN SONIDO DE ERROR QUE VEMOS DPS QUE PONEMOS
                 }*/
             }
         }
@@ -110,11 +118,17 @@ public class pickupcosas : MonoBehaviour
         PickUp.SetActive(false);
     }
 
-    //ESTO HACE QUE SE VEA EL TEXTO Y SE ACTIVE O DESACTIVE EN BASE A SI EL OBJETO ESTÁ BLOQUEADO
+    //ESTO HACE QUE SE VEA EL TEXTO Y SE ACTIVE O DESACTIVE EN BASE A SI EL OBJETO ESTï¿½ BLOQUEADO
     IEnumerator disableText()
     {
         yield return new WaitForSeconds(1.0f);
-        lockedtext1.SetActive(false);
+        if (lockedtext1.activeInHierarchy == true) {
+            lockedtext1.SetActive(false);
+
+        } else if (lockedtext2.activeInHierarchy == true) {
+            lockedtext2.SetActive(false);
+        }
+        
     }
 
     // Update is called once per frame
@@ -136,4 +150,6 @@ public class pickupcosas : MonoBehaviour
        }
 
     }
+
+    
 } 
