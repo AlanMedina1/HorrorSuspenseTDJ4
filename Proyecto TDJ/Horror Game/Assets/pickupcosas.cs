@@ -82,7 +82,7 @@ public class pickupcosas : MonoBehaviour
                      
                      LighterCollect.Play();
 
-                    } else if (CollectSteps== 1) {
+                    } else if (CollectSteps!= 1) {
                         lockedtext2.SetActive(true);
                         StopCoroutine("disableText");
                         StartCoroutine("disableText");
