@@ -12,6 +12,8 @@ public class pickupcosas : MonoBehaviour
     public AudioSource LighterCollect;
     public AudioSource GiftsCollect;
 
+    public GameObject trigger_cuadro;
+
     public int CollectSteps = 0;
     public PlayerInventory playerInventory;
     void Start()
@@ -78,9 +80,11 @@ public class pickupcosas : MonoBehaviour
                     if (CollectSteps== 2) {
                       this.gameObject.SetActive(false);
                       playerInventory.LighterCollected();
+                      trigger_cuadro.SetActive(true);
                       
                      
                      LighterCollect.Play();
+
 
                     } else if (CollectSteps!= 1) {
                         lockedtext2.SetActive(true);
