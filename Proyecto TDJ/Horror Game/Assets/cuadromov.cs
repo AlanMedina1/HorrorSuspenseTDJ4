@@ -6,6 +6,7 @@ public class cuadromov : MonoBehaviour
 {
     public GameObject cuadro1, cuadro2;
     public Collider collision;
+    public AudioSource cuadroCollect;
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
     {
@@ -14,7 +15,7 @@ public class cuadromov : MonoBehaviour
             cuadro1.SetActive(false);
             cuadro2.SetActive(true);
 
-            
+            cuadroCollect.Play();
             collision.enabled = false;
         }
     }
