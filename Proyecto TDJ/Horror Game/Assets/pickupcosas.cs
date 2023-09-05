@@ -6,7 +6,7 @@ public class pickupcosas : MonoBehaviour
 {
     // Start is called before the first frame update
     //EL LOCKED TEXT ES LO QUE SE USARIA PARA CUANDO EL OBJETO EST� BLOQUEADO
-    public GameObject PickUp, lockedtext1, lockedtext2;
+    public GameObject PickUp, lockedtext1, lockedtext2, lockedtext3;
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;
@@ -94,11 +94,16 @@ public class pickupcosas : MonoBehaviour
                 {
                     if (CollectSteps == 3)
                     {
+                        this.gameObject.SetActive(false);
                         playerInventory.GiftsCollected();
 
 
                         GiftsCollect.Play();
 
+                    } else if (CollectSteps != 3) {
+                        lockedtext3.SetActive(true);
+                        StopCoroutine("disableText");
+                        StartCoroutine("disableText");
                     }
                 }
                 //ESTO SER�A EL CODIGO DONDE SE ACCIONARIA LO DE EL OBJETO BLOQUEADO
@@ -127,6 +132,9 @@ public class pickupcosas : MonoBehaviour
 
         } else if (lockedtext2.activeInHierarchy == true) {
             lockedtext2.SetActive(false);
+
+        } else if (lockedtext3.activeInHierarchy == true) {
+            lockedtext3.SetActive(false);
         }
         
     }
