@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dibujos : MonoBehaviour
 {
-    public GameObject dibujoUI;
+    public GameObject dibujoUI, texto_instructivo;
     public GameObject SonidoPasos;
     public GameObject SonidoCorrer;
     bool toggle; //para validar el interactuar
@@ -20,6 +20,7 @@ public class Dibujos : MonoBehaviour
         if (toggle == false)
         {
             dibujoUI.SetActive(false);
+            texto_instructivo.SetActive(false);
             player.enabled = true;
             SonidoPasos.SetActive(true);
             SonidoCorrer.SetActive(true);
@@ -27,6 +28,7 @@ public class Dibujos : MonoBehaviour
         if (toggle == true) 
         {
             dibujoUI.SetActive(true);
+            texto_instructivo.SetActive(true);
             player.enabled = false;
             SonidoPasos.SetActive(false);
             SonidoCorrer.SetActive(false);
