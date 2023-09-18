@@ -1,0 +1,1561 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 14131 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Universidad/UNRAF/2023/TDJ4/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49458
+Successfully changed project path to: D:/Universidad/UNRAF/2023/TDJ4/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
+D:/Universidad/UNRAF/2023/TDJ4/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Universidad/UNRAF/2023/TDJ4/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   
+    VRAM:     7065 MB
+    Driver:   31.0.21031.1005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001853 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (465ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (365ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (158ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Universidad\UNRAF\2023\TDJ4\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2477.
+Total: 2.568600 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.281800 ms  DeleteObjects: 0.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Puerta_adentro.controller
+  artifactKey: Guid(fa1a03095f4a9a14d88c8691157ab253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Puerta_adentro.controller using Guid(fa1a03095f4a9a14d88c8691157ab253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91f55d7a08adfe32f312ceab26ba92b') in 0.070667 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Universidad\UNRAF\2023\TDJ4\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (604ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2480.
+Total: 2.560900 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.296200 ms  DeleteObjects: 0.025700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002252 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Universidad\UNRAF\2023\TDJ4\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (728ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.9 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2483.
+Total: 2.985300 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.684200 ms  DeleteObjects: 0.032000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5049.149847 seconds.
+  path: Assets/PrefabsUSADOS}
+  artifactKey: Guid(8cb43f1fa112b034c88972ca342c19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS} using Guid(8cb43f1fa112b034c88972ca342c19a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbad9df2218d77b4860c7e421af16cb1') in 0.013294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.522476 seconds.
+  path: Assets/PrefabsUSADOS}/posters
+  artifactKey: Guid(36ada7b27c40f184f9ec334f5c35fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters using Guid(36ada7b27c40f184f9ec334f5c35fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391fb734afa01e61e775951167f5478a') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079605 seconds.
+  path: Assets/PrefabsUSADOS}/posters/poster1.jpg
+  artifactKey: Guid(6a13b0682399e8a41a1132ed8b4384d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters/poster1.jpg using Guid(6a13b0682399e8a41a1132ed8b4384d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10eeb085fc933cc00827adeaefce5cd') in 0.088904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/PrefabsUSADOS}/posters/poster2.jpg
+  artifactKey: Guid(d9918fd0461e5a04abbecf78df8a3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters/poster2.jpg using Guid(d9918fd0461e5a04abbecf78df8a3cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad0ab5f7cdd1350ac9683728dc4f844') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.484612 seconds.
+  path: Assets/PrefabsUSADOS}/posters/Materials
+  artifactKey: Guid(7846e2668c8fc644397b9ad11e081b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters/Materials using Guid(7846e2668c8fc644397b9ad11e081b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c23d22fde2d42bef8ca1c5f7d54ee15') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078287 seconds.
+  path: Assets/PrefabsUSADOS}/posters/Materials/poster1.mat
+  artifactKey: Guid(ebb217726968f4344bfa0bc99ec014bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters/Materials/poster1.mat using Guid(ebb217726968f4344bfa0bc99ec014bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbb563ddf1671fbc88747be9be0e4ee') in 0.052466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/PrefabsUSADOS}/posters/Materials/poster2.mat
+  artifactKey: Guid(ed4e6d5e995b04044ba9763528f3f2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/posters/Materials/poster2.mat using Guid(ed4e6d5e995b04044ba9763528f3f2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261f275c4f2fcf836573a78e66de72b2') in 0.015115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.653032 seconds.
+  path: Assets/PrefabsUSADOS}/Patio
+  artifactKey: Guid(0b0b966d74173014e92f244cacecdbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Patio using Guid(0b0b966d74173014e92f244cacecdbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643ad8d1b332a048f8bc756c4ce02cf2') in 0.007717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891210 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos
+  artifactKey: Guid(f1d338058f6bd984181c07c5c71db481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos using Guid(f1d338058f6bd984181c07c5c71db481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e95b5af1214c2ef43f8c660bff6c84f') in 0.008654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077717 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujo1.png
+  artifactKey: Guid(c5bbca9fe039b894d8032ca3932c7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo1.png using Guid(c5bbca9fe039b894d8032ca3932c7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64a1c814554f098466d177721df3a8') in 0.010243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujo3.png
+  artifactKey: Guid(f24917d119c81b54198146301c67c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo3.png using Guid(f24917d119c81b54198146301c67c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9644d270603b70ec4823f5bd85fac4') in 0.012626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujoIU.png
+  artifactKey: Guid(7338d0371e0191842875499215cbd927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujoIU.png using Guid(7338d0371e0191842875499215cbd927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521b7b9aca271194a645d33f6fa5ca11') in 0.041066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujo2IU.png
+  artifactKey: Guid(9c0e3bad8e7cd6d4d835385684a0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo2IU.png using Guid(9c0e3bad8e7cd6d4d835385684a0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49b3cbb6f3487ad44f3d400608e507f') in 0.023627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/rosas2.png
+  artifactKey: Guid(a9c365139671f1b4e87ee670f0644701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/rosas2.png using Guid(a9c365139671f1b4e87ee670f0644701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0b0953d4832709ea79064aaf3d1bc1') in 0.013537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujo3IU.png
+  artifactKey: Guid(032a30f357e58784fabbec99e9027033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo3IU.png using Guid(032a30f357e58784fabbec99e9027033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2056da4a76b7545d735673061df7fc2') in 0.024008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/dibujo2.png
+  artifactKey: Guid(e0dc609d43fb76547854b79e82ab6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo2.png using Guid(e0dc609d43fb76547854b79e82ab6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01537044755b68798dd194f1c3fe10cc') in 0.029640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.212195 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/thm_Sonnenblumen-Strauss.png
+  artifactKey: Guid(1fbb5ded09450f64cbadf5d28306d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/thm_Sonnenblumen-Strauss.png using Guid(1fbb5ded09450f64cbadf5d28306d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4099c5069a91a110d3a01153252de7') in 0.010655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.829431 seconds.
+  path: Assets/PrefabsUSADOS}/Dibujos/thm_Sonnenblumen-Strauss.png
+  artifactKey: Guid(1fbb5ded09450f64cbadf5d28306d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Dibujos/thm_Sonnenblumen-Strauss.png using Guid(1fbb5ded09450f64cbadf5d28306d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3391e22193284fb92658a66ef831e1c7') in 0.017628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.043975 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos
+  artifactKey: Guid(fddaa17ecd4abc142a358459d803cbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos using Guid(fddaa17ecd4abc142a358459d803cbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f314cd974f940e0dd74a3a2b0279e7be') in 0.007863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.174683 seconds.
+  path: Assets/Furniture
+  artifactKey: Guid(bd91785fb44b12b45850f8bfbd6b59b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture using Guid(bd91785fb44b12b45850f8bfbd6b59b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb560cb2e7dc03d9ebdac9f9cd0efd79') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.452083 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(eb01bab5af2ed1344b158108d2d9c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(eb01bab5af2ed1344b158108d2d9c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54901d097ca1044b4507a321e746d013') in 0.002463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051028 seconds.
+  path: Assets/Materials/1-24.jpg
+  artifactKey: Guid(e88e8ad313f0f7a4ca490848afc72e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/1-24.jpg using Guid(e88e8ad313f0f7a4ca490848afc72e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb457f0be621681e5142e6d4fdbc7193') in 0.011671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Materials/pared-de-cemento-azul-superficie-dura-parece-arena-dise-o-la-textura-del-fondo-celeste-y-155656975.jpg
+  artifactKey: Guid(2076a22deca86644396d4c8694058877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pared-de-cemento-azul-superficie-dura-parece-arena-dise-o-la-textura-del-fondo-celeste-y-155656975.jpg using Guid(2076a22deca86644396d4c8694058877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2dccd095581fea7e590c4885206fdf') in 0.028601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/1-24.png
+  artifactKey: Guid(3a08c37d5313e464998b8331ff3a7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/1-24.png using Guid(3a08c37d5313e464998b8331ff3a7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e694f50a9363383f7e5fbfbf8d644c') in 0.031434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Materials/Paredes.mat
+  artifactKey: Guid(6fb33822f50d6b6448db078b7128e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Paredes.mat using Guid(6fb33822f50d6b6448db078b7128e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176f5ee75a292c0c3e4507b0de82ea4') in 0.014617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Materials/gabrielpng.PNG
+  artifactKey: Guid(185b99cdd86052e4babbd9bc2bbdc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/gabrielpng.PNG using Guid(185b99cdd86052e4babbd9bc2bbdc70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c78484f48c7f9b2e3c534e6c2990230') in 0.022030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/alternative.PNG
+  artifactKey: Guid(d8468ec6c986489458ed841d3b92fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/alternative.PNG using Guid(d8468ec6c986489458ed841d3b92fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf45b0e22df7d895b6eff93fca2b6dd') in 0.032704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Materials/pngtree-wooden-parquet-texture-floor-wood-photo-image_2839331.jpg
+  artifactKey: Guid(472fd89814afdbc458b429779daf2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pngtree-wooden-parquet-texture-floor-wood-photo-image_2839331.jpg using Guid(472fd89814afdbc458b429779daf2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8b3109aa77577127e5cfd6ab7405cd') in 0.011562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Alfombra.mat
+  artifactKey: Guid(8906e5ba661b8274fab841d4aa461cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alfombra.mat using Guid(8906e5ba661b8274fab841d4aa461cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445d8b46309aa4f6992d83199e89a088') in 0.026561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Materials/Material.001.mat
+  artifactKey: Guid(940464b1b061bec428b5ae31b7207657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.001.mat using Guid(940464b1b061bec428b5ae31b7207657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee681076a7677ae78a845d3a7740dd03') in 0.017866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Materials/Piso.mat
+  artifactKey: Guid(7a542f900244bfe4e8c89dd60277f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Piso.mat using Guid(7a542f900244bfe4e8c89dd60277f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5a47883a68ed89add79dea1a44084a') in 0.016024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Materials/BrickMessy0175_5_S.mat
+  artifactKey: Guid(bc6d2f2e92dc50848863a6a4cb4f97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BrickMessy0175_5_S.mat using Guid(bc6d2f2e92dc50848863a6a4cb4f97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bdbe72d2d3d3cb99c713e2aa593e0d') in 0.014638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Materials/cosoalfombra.png
+  artifactKey: Guid(c662305a08322eb4b92efe2331447d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cosoalfombra.png using Guid(c662305a08322eb4b92efe2331447d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f64d23929a629af256fef1fef2bb40') in 0.016742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.163506 seconds.
+  path: Assets/Materials/stock-photo-panorama-new-red-carpet-fabric.jpg
+  artifactKey: Guid(2c9eb39b9a4416b468c5ab6e23345404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stock-photo-panorama-new-red-carpet-fabric.jpg using Guid(2c9eb39b9a4416b468c5ab6e23345404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6029e0d8fb5207c515b006db95cf809') in 0.012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.061626 seconds.
+  path: Assets/Materials/CUADRO.mat
+  artifactKey: Guid(0bc951ba8e594d04987ee4609ef1b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CUADRO.mat using Guid(0bc951ba8e594d04987ee4609ef1b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ede8fe55536e0a8213d5b9f2a84438') in 0.011839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.835389 seconds.
+  path: Assets/Materials/CUADRO.mat
+  artifactKey: Guid(0bc951ba8e594d04987ee4609ef1b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CUADRO.mat using Guid(0bc951ba8e594d04987ee4609ef1b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9182db856d57b1e46e9c872e0a17935') in 0.010523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2389.223809 seconds.
+  path: Assets/Materials Test
+  artifactKey: Guid(d0f2351d732e8ec45bd7efa49e03189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials Test using Guid(d0f2351d732e8ec45bd7efa49e03189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c56c2c439af02fed443f7c1abfd978') in 0.010097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.099441 seconds.
+  path: Assets/Low Poly Furniture
+  artifactKey: Guid(4c8a8e1dfea1c0d4da399a65f9e14347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture using Guid(4c8a8e1dfea1c0d4da399a65f9e14347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fe8817d998e3bfe5673e8a261e973b') in 0.008154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.056725 seconds.
+  path: Assets/Low Poly Furniture/Bathroom
+  artifactKey: Guid(b78c8e9f5090b8c42ba1a5ef308a2026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom using Guid(b78c8e9f5090b8c42ba1a5ef308a2026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c21e564a96cf3191826da32ec3774db') in 0.007849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054442 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Bath.fbx
+  artifactKey: Guid(17f574b6098376d408faa6f9a4189b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Bath.fbx using Guid(17f574b6098376d408faa6f9a4189b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e3fec4a5f9deabb63ce88d0dad853f') in 0.087527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Shower.fbx
+  artifactKey: Guid(b45be9f67d3b853469a861d4f3d100bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Shower.fbx using Guid(b45be9f67d3b853469a861d4f3d100bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d0c0de1df6f7e64cef24fd431eaaf4') in 0.065426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Toilet Roll Holder.fbx
+  artifactKey: Guid(845b78aae0a810d4c81d5add7c9478d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Toilet Roll Holder.fbx using Guid(845b78aae0a810d4c81d5add7c9478d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050242da043162ac6bf5da414d3f0dd4') in 0.045294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Toilet.fbx
+  artifactKey: Guid(c5ca4480d38729d489d9a9d482496ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Toilet.fbx using Guid(c5ca4480d38729d489d9a9d482496ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e1becde5e950fc47e29facdf5ecf6') in 0.073524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Toilet Rolls.fbx
+  artifactKey: Guid(8174fdf080f259a4f99096ad45a39b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Toilet Rolls.fbx using Guid(8174fdf080f259a4f99096ad45a39b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504fe0f00733273fea560b2f0068d6a7') in 0.044652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Towel Holder.fbx
+  artifactKey: Guid(17d87f5cf2c11d14e8105c5621a8fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Towel Holder.fbx using Guid(17d87f5cf2c11d14e8105c5621a8fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bcb9daf8265cf9df90d3d92ea05b07') in 0.034133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Low Poly Furniture/Bathroom/Sink.fbx
+  artifactKey: Guid(430de884309f05a4bbe630a3ec235518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Bathroom/Sink.fbx using Guid(430de884309f05a4bbe630a3ec235518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ba17de23ab4c60201ac112866f2584') in 0.042470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.152438 seconds.
+  path: Assets/Low Poly Furniture/Chairs
+  artifactKey: Guid(d79f964ab7738b24b969e0fd79f37b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs using Guid(d79f964ab7738b24b969e0fd79f37b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68445abe200305834141501808b5c476') in 0.008286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082717 seconds.
+  path: Assets/Low Poly Furniture/Chairs/Chair A.fbx
+  artifactKey: Guid(c30d89b6417f91c47b2fe74cae2b47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs/Chair A.fbx using Guid(c30d89b6417f91c47b2fe74cae2b47e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bf24c816efb75d5483cdeab5e845e1') in 0.022061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Low Poly Furniture/Chairs/Chair B.fbx
+  artifactKey: Guid(8eb116f25694d424f9a97eb82f6bec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs/Chair B.fbx using Guid(8eb116f25694d424f9a97eb82f6bec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd963db441ce3b5b72a204574f3e54997') in 0.044225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Low Poly Furniture/Chairs/Chair C.fbx
+  artifactKey: Guid(9b17c83752584c2479c736e79d4b2f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs/Chair C.fbx using Guid(9b17c83752584c2479c736e79d4b2f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71718a8b94c6e129cba2b1ec304df128') in 0.052753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Furniture/Chairs/Chair E.fbx
+  artifactKey: Guid(bdc0a1abb4bdfae4d8c418fe62c82750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs/Chair E.fbx using Guid(bdc0a1abb4bdfae4d8c418fe62c82750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1ffa397ee4f5394a30e8241021faf6') in 0.036300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Low Poly Furniture/Chairs/Chair D.fbx
+  artifactKey: Guid(bd02be88046b2c44b8980a9e0c8d45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Chairs/Chair D.fbx using Guid(bd02be88046b2c44b8980a9e0c8d45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1146c9de94f328f19304d9daf70df7') in 0.027708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.618480 seconds.
+  path: Assets/Low Poly Furniture/Drawers
+  artifactKey: Guid(9c111f85ed9af2541b37f78c29250f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Drawers using Guid(9c111f85ed9af2541b37f78c29250f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a1e0bdcf4470d4993dc2104b1a604') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082643 seconds.
+  path: Assets/Low Poly Furniture/Drawers/Drawer A.fbx
+  artifactKey: Guid(629016ad7bf08f84987ef43b519cde65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Drawers/Drawer A.fbx using Guid(629016ad7bf08f84987ef43b519cde65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4515d8bb98b52175d2586624b11ad30c') in 0.065292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Low Poly Furniture/Drawers/Drawer B.fbx
+  artifactKey: Guid(c90c9247bc4c0f44e9a4a7a9b7338439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Drawers/Drawer B.fbx using Guid(c90c9247bc4c0f44e9a4a7a9b7338439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3923fce15690a57467bbabd6f5b9ad99') in 0.096041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.583528 seconds.
+  path: Assets/Low Poly Furniture/Electronics
+  artifactKey: Guid(371de808209b92f4487a611d6f424d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics using Guid(371de808209b92f4487a611d6f424d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397eac2bbaddf0e1fcc2d516827c3018') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084947 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Console A.fbx
+  artifactKey: Guid(49a2584fd34efba4fb8005c146d9daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Console A.fbx using Guid(49a2584fd34efba4fb8005c146d9daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e111a6fce0402a357c252fa20274b5e9') in 0.017326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Laptop.fbx
+  artifactKey: Guid(dca4a160abc03d244ba29bcb6c92d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Laptop.fbx using Guid(dca4a160abc03d244ba29bcb6c92d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dbf524c9f6c2b266f46738158dc6dc') in 0.045952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Phone.fbx
+  artifactKey: Guid(8f7a8f030ab99ac4d82df643d83e4e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Phone.fbx using Guid(8f7a8f030ab99ac4d82df643d83e4e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8857d336625bc01c535f780df76102a') in 0.049571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Console B.fbx
+  artifactKey: Guid(8d0a29c96f76251478260e5c4669cbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Console B.fbx using Guid(8d0a29c96f76251478260e5c4669cbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb47dfbb849adc7eadedee96df87c86e') in 0.061928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Console D.fbx
+  artifactKey: Guid(b3bc224ded8e8f3489d77b1d68b0aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Console D.fbx using Guid(b3bc224ded8e8f3489d77b1d68b0aab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76fe27b31faf24bbec0af53fcf83106') in 0.041306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Low Poly Furniture/Electronics/TV B.fbx
+  artifactKey: Guid(6358b7843d6bd9e4394c234cb5d91340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/TV B.fbx using Guid(6358b7843d6bd9e4394c234cb5d91340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00fca2ba6710d1ea2e310d3b25078c') in 0.046970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Keyboard.fbx
+  artifactKey: Guid(64a46e41bf9f1ff44b4f17c720910b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Keyboard.fbx using Guid(64a46e41bf9f1ff44b4f17c720910b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be3014cd3401e3cbb7ce17a555cb8a7') in 0.043235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Pc.fbx
+  artifactKey: Guid(113a2bec337e724498322b51aff2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Pc.fbx using Guid(113a2bec337e724498322b51aff2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e86254bcba93070ae67c1e63b923ff1') in 0.045327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Tablet.fbx
+  artifactKey: Guid(9eb0737cf80f96a439f78f26969baf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Tablet.fbx using Guid(9eb0737cf80f96a439f78f26969baf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3546c0445244758c5b3443ca9eb125') in 0.049228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Console C.fbx
+  artifactKey: Guid(3a35fa7960cbf63448db524d30a3c14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Console C.fbx using Guid(3a35fa7960cbf63448db524d30a3c14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5083f5321baba9d9af1d099f7e7753e') in 0.070844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Furniture/Electronics/TV A.fbx
+  artifactKey: Guid(92780bcd3219f9448970c5b66464b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/TV A.fbx using Guid(92780bcd3219f9448970c5b66464b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa2a7735a579c744a70ab7b59f5c7ed') in 0.073385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Low Poly Furniture/Electronics/Monitor.fbx
+  artifactKey: Guid(e8e37eb4dfcc9e4419feb67e862cfcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Electronics/Monitor.fbx using Guid(e8e37eb4dfcc9e4419feb67e862cfcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5172c6db73d2de04832e10d4fb185d') in 0.073228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.504007 seconds.
+  path: Assets/Low Poly Furniture/Kitchen
+  artifactKey: Guid(204d31f2a0df37545a3c1a03efed62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen using Guid(204d31f2a0df37545a3c1a03efed62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd3712fa8dfc167d30b9456f3ddecc3') in 0.008791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053581 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Blender.fbx
+  artifactKey: Guid(894d748ce9d08b3468a283b4e4425a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Blender.fbx using Guid(894d748ce9d08b3468a283b4e4425a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd922ce535092fe5ed04edc6651c3f959') in 0.020614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Microwave.fbx
+  artifactKey: Guid(6ac7e048696c26042804b262fb336e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Microwave.fbx using Guid(6ac7e048696c26042804b262fb336e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bcfa35c5e4004c90b7debb3a4384cd') in 0.057377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Dishwasher.fbx
+  artifactKey: Guid(24cd14449edf6b6418deeebe4e669010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Dishwasher.fbx using Guid(24cd14449edf6b6418deeebe4e669010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dfa8a4ac3adbe318a4445eeee6a34e') in 0.062423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard D.fbx
+  artifactKey: Guid(5841dbe9149fa114dbc2b1a87ec5099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard D.fbx using Guid(5841dbe9149fa114dbc2b1a87ec5099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304f82109def58992216d967784d985') in 0.065472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard F.fbx
+  artifactKey: Guid(229d42430cfc5214b94172195b393acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard F.fbx using Guid(229d42430cfc5214b94172195b393acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c21b003fab3a7fd5d6a1864c416f960') in 0.063097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard C.fbx
+  artifactKey: Guid(adb5db87aa87940438469af81b6d1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard C.fbx using Guid(adb5db87aa87940438469af81b6d1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ff922236c9ad8922e481f4771be46') in 0.061975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Washing Machine.fbx
+  artifactKey: Guid(970a6c2d7e0408d48a36ba3aca7c0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Washing Machine.fbx using Guid(970a6c2d7e0408d48a36ba3aca7c0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70f5a8330fb6faea92aed185ce77064') in 0.071593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard B.fbx
+  artifactKey: Guid(94606b42d5a3a5848b911f223e26f314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard B.fbx using Guid(94606b42d5a3a5848b911f223e26f314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125997b426484e4295c7fa8c9c57758e') in 0.071116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Toaster.fbx
+  artifactKey: Guid(4baefdf37a1454b41a4920b780f9ab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Toaster.fbx using Guid(4baefdf37a1454b41a4920b780f9ab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f69056ce57baf781d4e1d7985960d35') in 0.045872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Kitchen Roll.fbx
+  artifactKey: Guid(feaaf14aae8befb4b9043291e33130c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Kitchen Roll.fbx using Guid(feaaf14aae8befb4b9043291e33130c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189e976867d5edce8fba38f2f4ed4b3b') in 0.044124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Knife Block.fbx
+  artifactKey: Guid(b61f94afd394aa14a8c77156c04d809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Knife Block.fbx using Guid(b61f94afd394aa14a8c77156c04d809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38671c99cca59bc4d80f9cd95d3535f0') in 0.039710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Fridge A.fbx
+  artifactKey: Guid(ca8daa6a743a2984ba8bd41c57c2095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Fridge A.fbx using Guid(ca8daa6a743a2984ba8bd41c57c2095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a5dcc31ca11bf30ced4ea885ebfe0') in 0.060131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Kettle.fbx
+  artifactKey: Guid(3611877a14be8c04fab4d4e2ec71b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Kettle.fbx using Guid(3611877a14be8c04fab4d4e2ec71b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d8c63b37377c7195df51a2275a0a91') in 0.051583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard A.fbx
+  artifactKey: Guid(ef1e1007403d4404ba0f67a67c9ff121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard A.fbx using Guid(ef1e1007403d4404ba0f67a67c9ff121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026c7b6ee4aa199b2bdb990b159ffa7f') in 0.079709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard Sink.fbx
+  artifactKey: Guid(800a34fc260a93648b41f483e5e87672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard Sink.fbx using Guid(800a34fc260a93648b41f483e5e87672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b4bb4ec982ca91aaa4ce9956a01b6') in 0.074023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Fridge B.fbx
+  artifactKey: Guid(904b45e9d4b112b4583a4fb61f9ef4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Fridge B.fbx using Guid(904b45e9d4b112b4583a4fb61f9ef4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d311215d312cf1ee55946cd8bac4b59') in 0.068639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Cupboard E.fbx
+  artifactKey: Guid(509bdf29dad38fa48a7d7c6f4fb1bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Cupboard E.fbx using Guid(509bdf29dad38fa48a7d7c6f4fb1bdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2bdc2f0c5d7921767468b28b2efb7b') in 0.099604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Low Poly Furniture/Kitchen/Oven.fbx
+  artifactKey: Guid(fe8dd72b7073e7d4380d1f960b83c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Kitchen/Oven.fbx using Guid(fe8dd72b7073e7d4380d1f960b83c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a60ce723b86d01cbeeb9913939d47e') in 0.086541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.368532 seconds.
+  path: Assets/Low Poly Furniture/Doors
+  artifactKey: Guid(c2b8cd3f23262ec4a9dd30c011215a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Doors using Guid(c2b8cd3f23262ec4a9dd30c011215a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f02f2bc43a149072ec8e9be217c572f') in 0.008833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080512 seconds.
+  path: Assets/Low Poly Furniture/Doors/Door A.fbx
+  artifactKey: Guid(ba480c6fe3cc7d34ba080ff21e7ac3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Doors/Door A.fbx using Guid(ba480c6fe3cc7d34ba080ff21e7ac3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b010beec1dc7f053ac348a00828c8a') in 0.032767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Low Poly Furniture/Doors/Door B.fbx
+  artifactKey: Guid(dc87f11865995af4cb0e1f490272dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Doors/Door B.fbx using Guid(dc87f11865995af4cb0e1f490272dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd935dce547ec37f8c0fb14eb3b6e14d1') in 0.064301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Furniture/Doors/Door C.fbx
+  artifactKey: Guid(9d0f42e8b1119ef4eb7653c8e7a5179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Doors/Door C.fbx using Guid(9d0f42e8b1119ef4eb7653c8e7a5179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5755777705e2329945229fe0ab897b1') in 0.117335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.675890 seconds.
+  path: Assets/Low Poly Furniture/Carpets
+  artifactKey: Guid(b1bd6d5af8855fa4484feb89f99a422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Carpets using Guid(b1bd6d5af8855fa4484feb89f99a422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5f1c8a976bb31d7521500ed6d6a856') in 0.008287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081960 seconds.
+  path: Assets/Low Poly Furniture/Carpets/Carpet A.fbx
+  artifactKey: Guid(21ba3522b315db54a933ad3cfbae40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Carpets/Carpet A.fbx using Guid(21ba3522b315db54a933ad3cfbae40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df360d7ae84ae8bd109ba265b0c03c05') in 0.020096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Low Poly Furniture/Carpets/Carpet B.fbx
+  artifactKey: Guid(c54fcba2a2dd8a043b32613438e2b563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Carpets/Carpet B.fbx using Guid(c54fcba2a2dd8a043b32613438e2b563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c719fb0d3ac94cad406e9e75268cf0ea') in 0.044858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Furniture/Carpets/Carpet C.fbx
+  artifactKey: Guid(8aa4bc400c1a2a7418bb05ae37c2aa7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Carpets/Carpet C.fbx using Guid(8aa4bc400c1a2a7418bb05ae37c2aa7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83542e1c05b784883fce6c955b179c3b') in 0.050503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.504146 seconds.
+  path: Assets/Low Poly Furniture/Beds
+  artifactKey: Guid(f2475082874bbd04f885e4390f6c04c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Beds using Guid(f2475082874bbd04f885e4390f6c04c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10505cecf6673cf5d849671b8a39ca1d') in 0.008477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080915 seconds.
+  path: Assets/Low Poly Furniture/Beds/Bed Double.fbx
+  artifactKey: Guid(a203f4f6be8966d418b69aeb258621f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Beds/Bed Double.fbx using Guid(a203f4f6be8966d418b69aeb258621f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35505b698752d6b32e99019a84593016') in 0.023291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Low Poly Furniture/Beds/Bunk Bed.fbx
+  artifactKey: Guid(f8f886b7a94e7ec46ac2b47f882f490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Beds/Bunk Bed.fbx using Guid(f8f886b7a94e7ec46ac2b47f882f490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d3d9743593965255b90e3a3645e0cc') in 0.047452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Furniture/Beds/Triple Bunk Bed.fbx
+  artifactKey: Guid(c0f7a56eb61bd984187a0b9478fa5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Beds/Triple Bunk Bed.fbx using Guid(c0f7a56eb61bd984187a0b9478fa5327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baff2dbfab7d3a6e1fb89df3c4546f1') in 0.070307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Low Poly Furniture/Beds/Bed Single.fbx
+  artifactKey: Guid(8742912c64f813d4c831bcf68565b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Beds/Bed Single.fbx using Guid(8742912c64f813d4c831bcf68565b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd077630b54f40717a650a705ef594f09') in 0.051387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.255145 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous
+  artifactKey: Guid(6daaa2e92a161ba4594b0632d187561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous using Guid(6daaa2e92a161ba4594b0632d187561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdf194304382dbd911b89e7c06c45fe') in 0.008376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084850 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Alarm Clock.fbx
+  artifactKey: Guid(2dbf60c37e0e93d418680fbd7c8ca9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Alarm Clock.fbx using Guid(2dbf60c37e0e93d418680fbd7c8ca9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f81f6997c6dba699890347e06566612') in 0.024061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Vent.fbx
+  artifactKey: Guid(dc7fa83a9bd229e448b21be0b416ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Vent.fbx using Guid(dc7fa83a9bd229e448b21be0b416ec19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae4073076d15add5a35ceed949e92c') in 0.040420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Glass.fbx
+  artifactKey: Guid(f052499f07381464da1135f117d8d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Glass.fbx using Guid(f052499f07381464da1135f117d8d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4718b4af4ff0e1c7d613e84ca5c9d061') in 0.042514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Ceiling Fan.fbx
+  artifactKey: Guid(9abc756ef81632145b2761f211d08ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Ceiling Fan.fbx using Guid(9abc756ef81632145b2761f211d08ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2055994d37c1599999e45bb3a1c3cf') in 0.041085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Pot.fbx
+  artifactKey: Guid(ee21544e2e4a4b848817dd7db14df109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Pot.fbx using Guid(ee21544e2e4a4b848817dd7db14df109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808507f953f210fd2e5df3c9b8b851db') in 0.046718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Speaker.fbx
+  artifactKey: Guid(621f8ee353d98b246a4dfa97b3007274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Speaker.fbx using Guid(621f8ee353d98b246a4dfa97b3007274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b404527fc042c4366a35cd280dec51b4') in 0.046778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Books B.fbx
+  artifactKey: Guid(2dbaa5f9e93a49d4fb56845eaa0fa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Books B.fbx using Guid(2dbaa5f9e93a49d4fb56845eaa0fa2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a28fe76b5c6ec2eac6f8df12043d30') in 0.053279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Radiator B.fbx
+  artifactKey: Guid(b45aa11583981fa47a394a5d23b688a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Radiator B.fbx using Guid(b45aa11583981fa47a394a5d23b688a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137df5c2a1d997597926f49f29c45afe') in 0.067303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Broom.fbx
+  artifactKey: Guid(0d65702d80f401641990d54aff7b26d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Broom.fbx using Guid(0d65702d80f401641990d54aff7b26d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1a171ff7dd4c9ddf74f3c5f6d5fc20') in 0.039671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Radiator A.fbx
+  artifactKey: Guid(5f2281faa51d18c488a9bc7737425f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Radiator A.fbx using Guid(5f2281faa51d18c488a9bc7737425f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a6c99f2c6639ecd8a5e046df75ff56') in 0.044823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Globe.fbx
+  artifactKey: Guid(40a2f582eca37164a96af7f2ad2316fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Globe.fbx using Guid(40a2f582eca37164a96af7f2ad2316fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5afeaec869f45ad18470d14f15045') in 0.053526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Vase.fbx
+  artifactKey: Guid(377f182b5ab28034ca3d424c62ddaeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Vase.fbx using Guid(377f182b5ab28034ca3d424c62ddaeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc2d63b788e1bc629695cfeba8d624b') in 0.063089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Bowl.fbx
+  artifactKey: Guid(b59551fd44082604eabde88852377034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Bowl.fbx using Guid(b59551fd44082604eabde88852377034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3b3cd739c0614a0ba47b5b0e47b181') in 0.041446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Ladder.fbx
+  artifactKey: Guid(dcba919752ad8104d860ff63d6c6f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Ladder.fbx using Guid(dcba919752ad8104d860ff63d6c6f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446658c98d051d4d43102ef51d305f86') in 0.041340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Safe B.fbx
+  artifactKey: Guid(e9ceda47cd62b7f46a79407ce7569c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Safe B.fbx using Guid(e9ceda47cd62b7f46a79407ce7569c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c219217b1288c9ae98237799fa427852') in 0.058098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Hoover.fbx
+  artifactKey: Guid(3a292a8c8498c3b44bf1baef98a5972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Hoover.fbx using Guid(3a292a8c8498c3b44bf1baef98a5972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d1fa6dae5b52675b0b444951a65195') in 0.051333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Socket.fbx
+  artifactKey: Guid(da0cc149df34ccb4c843d488f12f5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Socket.fbx using Guid(da0cc149df34ccb4c843d488f12f5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1bc2243c608238b2f86cf72bb20c7f') in 0.047504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Curtains.fbx
+  artifactKey: Guid(8278c830128b20c4386aed5a16a82d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Curtains.fbx using Guid(8278c830128b20c4386aed5a16a82d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34daa7df23cb3c23a808023ceb992fa4') in 0.047206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Bin.fbx
+  artifactKey: Guid(dcf3eb1201aa79d4bbc4ff55f9c8fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Bin.fbx using Guid(dcf3eb1201aa79d4bbc4ff55f9c8fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05efe50e93c1cf425203bafe8a467964') in 0.045468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Books A.fbx
+  artifactKey: Guid(8a1503650e87c844bb2361cfb559cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Books A.fbx using Guid(8a1503650e87c844bb2361cfb559cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad6b07b6b98fc4c7b4c2f4ec7a92c1') in 0.062134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Light Switch.fbx
+  artifactKey: Guid(c00377ba1efe2e6419b3db52036d8071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Light Switch.fbx using Guid(c00377ba1efe2e6419b3db52036d8071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddff2351860cc96994ef22d41e2aa8ad') in 0.046125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Pan.fbx
+  artifactKey: Guid(83c10af1c0d17ce4d9120e4fbf9805ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Pan.fbx using Guid(83c10af1c0d17ce4d9120e4fbf9805ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e884d2c31b64aee3ecd52204fc31f14') in 0.048037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Plant B.fbx
+  artifactKey: Guid(9c8117171d7290a4c96e02384a19c3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Plant B.fbx using Guid(9c8117171d7290a4c96e02384a19c3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80f099633bfc7b8f34a02a8b136ac5c') in 0.049754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Mirror A.fbx
+  artifactKey: Guid(581ebd24100c5104c8e95b9f6557e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Mirror A.fbx using Guid(581ebd24100c5104c8e95b9f6557e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f19b8fee8aee1b41498e86644d6a69') in 0.044562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Fan.fbx
+  artifactKey: Guid(5dcc54dff551ba94c9a1cf4c652d09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Fan.fbx using Guid(5dcc54dff551ba94c9a1cf4c652d09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b144b120df3a4f1c26cc037252ab36') in 0.073457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Mug.fbx
+  artifactKey: Guid(af22ed20a9972d0458c996f68852b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Mug.fbx using Guid(af22ed20a9972d0458c996f68852b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b89794761c750a44366b722259e0eaa') in 0.044849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Plant A.fbx
+  artifactKey: Guid(291bd0b5063a43249a2c66c64e8ca8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Plant A.fbx using Guid(291bd0b5063a43249a2c66c64e8ca8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719bfd1a4da8711c438898d18569b36f') in 0.051265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Safe A.fbx
+  artifactKey: Guid(43e8fe33d7b074746b8c6549f826281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Safe A.fbx using Guid(43e8fe33d7b074746b8c6549f826281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbfb6b701dfb0a24f485d3843dfd3de') in 0.060394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Plate.fbx
+  artifactKey: Guid(f038b6d62c57904449872c85618732b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Plate.fbx using Guid(f038b6d62c57904449872c85618732b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e37066850939dccde15554e983e63') in 0.050522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Clock.fbx
+  artifactKey: Guid(0cf5570baf15da7419a1cf884f2a404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Clock.fbx using Guid(0cf5570baf15da7419a1cf884f2a404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41a8b56aa77c848eaeda8e8b9910457') in 0.048406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Low Poly Furniture/Miscellaneous/Mirror B.fbx
+  artifactKey: Guid(fb0b37eeef9e40d45afda579b42eeee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Miscellaneous/Mirror B.fbx using Guid(fb0b37eeef9e40d45afda579b42eeee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8124c0e1f0536bbdf6cb7eaba76409f9') in 0.047279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 337.535746 seconds.
+  path: Assets/Low Poly Furniture/Windows
+  artifactKey: Guid(fb7aaa6640a56464f87d42178cb8570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Windows using Guid(fb7aaa6640a56464f87d42178cb8570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9818f76272efc68fad019b104b34fbd4') in 0.008545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078213 seconds.
+  path: Assets/Low Poly Furniture/Windows/Window A.fbx
+  artifactKey: Guid(846b015b3ce707a478d1df089bafc747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Windows/Window A.fbx using Guid(846b015b3ce707a478d1df089bafc747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a65c55e11179908dd282e54959cc25c') in 0.022579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Low Poly Furniture/Windows/Window B.fbx
+  artifactKey: Guid(f3c8c3cac58c8e94bb87325522feacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Windows/Window B.fbx using Guid(f3c8c3cac58c8e94bb87325522feacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbf08da06569148eaad42c10a82719f') in 0.047503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Low Poly Furniture/Windows/Window C.fbx
+  artifactKey: Guid(1a5b2475f6e4f854e91f43208ba1a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Windows/Window C.fbx using Guid(1a5b2475f6e4f854e91f43208ba1a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b11a28457cb04c929e443b97c478d9') in 0.071315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.166754 seconds.
+  path: Assets/Low Poly Furniture/Tables
+  artifactKey: Guid(6147dd73492239e40a4ea1c75bf46939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables using Guid(6147dd73492239e40a4ea1c75bf46939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b6edd09e5c631ff342e36bbc8b987b') in 0.008020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081432 seconds.
+  path: Assets/Low Poly Furniture/Tables/Desk.fbx
+  artifactKey: Guid(697b205628922ee4db20a99a7147fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Desk.fbx using Guid(697b205628922ee4db20a99a7147fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0557a3a400d59a64dad494ac83fc0ab0') in 0.039255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Low Poly Furniture/Tables/Rounded Table A.fbx
+  artifactKey: Guid(ec3d1a81759c3f143a951be6d8194604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Rounded Table A.fbx using Guid(ec3d1a81759c3f143a951be6d8194604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74ff48e7ad940d142e6e15a00664946') in 0.047693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Low Poly Furniture/Tables/Rounded Table C.fbx
+  artifactKey: Guid(7414b902c5bb9f24eaab5235742022b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Rounded Table C.fbx using Guid(7414b902c5bb9f24eaab5235742022b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4eb57e190fb81f59f71b6c1789fa4c') in 0.045189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Low Poly Furniture/Tables/Table A.fbx
+  artifactKey: Guid(5082da9f9a8242647bf1c48597c6e44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Table A.fbx using Guid(5082da9f9a8242647bf1c48597c6e44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42bd3d9c1925bcc87950751c9af5b43') in 0.046949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Furniture/Tables/Table D.fbx
+  artifactKey: Guid(79eaf4f88429a024b8ee01636214d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Table D.fbx using Guid(79eaf4f88429a024b8ee01636214d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f046914c4e9f0a59831299b81817f21e') in 0.036472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Low Poly Furniture/Tables/Table C.fbx
+  artifactKey: Guid(7d384581aeabdf54daa504841d1ca372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Table C.fbx using Guid(7d384581aeabdf54daa504841d1ca372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ea08301b01800eaa5b8b1a9363c0ff') in 0.036391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Low Poly Furniture/Tables/Rounded Table B.fbx
+  artifactKey: Guid(270f4545b49626540b1303392f0c6bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Rounded Table B.fbx using Guid(270f4545b49626540b1303392f0c6bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b715bddac5bae1f6ebca2720b8324838') in 0.038273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Low Poly Furniture/Tables/Table B.fbx
+  artifactKey: Guid(4bd1d86ca38457540a5616ed2441ebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Tables/Table B.fbx using Guid(4bd1d86ca38457540a5616ed2441ebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644c242e930d73e9a7246e13ff81fe0d') in 0.033727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.046297 seconds.
+  path: Assets/Low Poly Furniture/Lights
+  artifactKey: Guid(4eb524635f956414b85cf5624b725349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights using Guid(4eb524635f956414b85cf5624b725349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aacced0a3b30e7c81228cc5febe4a42') in 0.008698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072653 seconds.
+  path: Assets/Low Poly Furniture/Lights/Ceiling Light.fbx
+  artifactKey: Guid(3121ce8001a127147a5d0d4aff554eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights/Ceiling Light.fbx using Guid(3121ce8001a127147a5d0d4aff554eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995f768351169239b139c052d7a80d26') in 0.020886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Low Poly Furniture/Lights/Lamp B.fbx
+  artifactKey: Guid(5897c12d9a0489b409045eb674a5a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights/Lamp B.fbx using Guid(5897c12d9a0489b409045eb674a5a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ad37c99b1b093f5ac9077ea6de18ad') in 0.050447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Low Poly Furniture/Lights/Wall Light.fbx
+  artifactKey: Guid(d0e7271dd1ac9114c89292d68a364313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights/Wall Light.fbx using Guid(d0e7271dd1ac9114c89292d68a364313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c20535594cee9489cbdb782bb098b47') in 0.062896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Low Poly Furniture/Lights/Lamp C.fbx
+  artifactKey: Guid(799226d43da723644ae5165d01606628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights/Lamp C.fbx using Guid(799226d43da723644ae5165d01606628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7cc93db2956a8b6be23e59097f282c') in 0.075726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Low Poly Furniture/Lights/Lamp A.fbx
+  artifactKey: Guid(ae77bda74e98c9b4fbf5c16a327fe1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Lights/Lamp A.fbx using Guid(ae77bda74e98c9b4fbf5c16a327fe1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec74338849008dea2a64ccc0b396e0') in 0.072994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.381166 seconds.
+  path: Assets/Low Poly Furniture/Sofas
+  artifactKey: Guid(a3d0524361057f744af33dc72a392f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Sofas using Guid(a3d0524361057f744af33dc72a392f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15217c2076d6cfdab13da2fc7304d8a4') in 0.008182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074015 seconds.
+  path: Assets/Low Poly Furniture/Sofas/Sofa A.fbx
+  artifactKey: Guid(eb655b3336a5352468f893e51a15cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Sofas/Sofa A.fbx using Guid(eb655b3336a5352468f893e51a15cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7d77255a6142177344a7b6b6dfdda2') in 0.019621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Low Poly Furniture/Sofas/Sofa C.fbx
+  artifactKey: Guid(614f2e92468a5a84ea4198356fb95453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Sofas/Sofa C.fbx using Guid(614f2e92468a5a84ea4198356fb95453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad991462002dbdb88277d3be7e7cdf9') in 0.043132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Low Poly Furniture/Sofas/Sofa B.fbx
+  artifactKey: Guid(38e6d7a20bf63c747afb13826f942fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Sofas/Sofa B.fbx using Guid(38e6d7a20bf63c747afb13826f942fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd15f4cd4caaf62cf8746808e4387d6') in 0.047206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Furniture/Sofas/Sofa D.fbx
+  artifactKey: Guid(f0d3db57535817f439b052095cc502ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Sofas/Sofa D.fbx using Guid(f0d3db57535817f439b052095cc502ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaeb644c5da1c7549051d98b35099e2') in 0.030618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.674971 seconds.
+  path: Assets/Low Poly Furniture/Shelves
+  artifactKey: Guid(23f9df85d3b131645ba3ac070c417f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves using Guid(23f9df85d3b131645ba3ac070c417f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d07f1b93bb13bf2bce7f19bf07c53f6') in 0.007576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.252218 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Shelf A.fbx
+  artifactKey: Guid(547997c23379b744f9ec29a1fe5414a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Shelf A.fbx using Guid(547997c23379b744f9ec29a1fe5414a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f432d359f783703c66e099ba5bfe890') in 0.030752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Shelf E.fbx
+  artifactKey: Guid(6118735c95656b14aa851feda0781f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Shelf E.fbx using Guid(6118735c95656b14aa851feda0781f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a7ea65903449d3f8e4e85a80614c8') in 0.044583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Shelf C.fbx
+  artifactKey: Guid(36b13de6bf242874cb8ea346c5f2a78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Shelf C.fbx using Guid(36b13de6bf242874cb8ea346c5f2a78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e1ff7bdc72ce5ba497ba7d45f564f4') in 0.044241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Wall Shelf A.fbx
+  artifactKey: Guid(da8b09575e6f21c47b4497495e0770f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Wall Shelf A.fbx using Guid(da8b09575e6f21c47b4497495e0770f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef5d8d842ad460fbdba5c26aa90b3a3') in 0.033098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Shelf B.fbx
+  artifactKey: Guid(71864a194d678a849aebd4a2bdd5ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Shelf B.fbx using Guid(71864a194d678a849aebd4a2bdd5ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf08859158ffa7650a7e9f3fa4f9f59') in 0.098974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Shelf D.fbx
+  artifactKey: Guid(6ce5dd5a78dc05d4ea6e6fae6e0caa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Shelf D.fbx using Guid(6ce5dd5a78dc05d4ea6e6fae6e0caa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd1b77485c48fc77cdd3a8f2b974b05') in 0.049562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Low Poly Furniture/Shelves/Wall Shelf B.fbx
+  artifactKey: Guid(35adc1bb81f5ec54f9acc896ae86fc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Shelves/Wall Shelf B.fbx using Guid(35adc1bb81f5ec54f9acc896ae86fc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67450d2bb02036bd86f655145a4b4120') in 0.023013 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Universidad\UNRAF\2023\TDJ4\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 2.981100 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.708300 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Universidad\UNRAF\2023\TDJ4\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 2.665900 ms (FindLiveObjects: 0.162200 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.412400 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1803.583098 seconds.
+  path: Assets/Free Low Poly Bike Models
+  artifactKey: Guid(bf03e007cbbdc584d895a9cbef21d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models using Guid(bf03e007cbbdc584d895a9cbef21d007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f094733005c6aa777194f6d3b4e5af6b') in 0.013131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070588 seconds.
+  path: Assets/Free Low Poly Bike Models/Free Low Poly Bike Models 16X9.jpg
+  artifactKey: Guid(ef5720827f53cfd4a918c1db9e19699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Free Low Poly Bike Models 16X9.jpg using Guid(ef5720827f53cfd4a918c1db9e19699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cdfabfc8210c3d5207ce046afd82e5') in 0.030696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Free Low Poly Bike Models/Free Low Poly Bike Models Textured.blend
+  artifactKey: Guid(ed98ad835e2993b419363bc6c75812c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Free Low Poly Bike Models Textured.blend using Guid(ed98ad835e2993b419363bc6c75812c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb2fd3fd7f1aa50df1db248bedd8d0') in 0.150858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Free Low Poly Bike Models/Free Low Poly Bike Models.fbx
+  artifactKey: Guid(20b73c2956ee0a94e98accd7dafdbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Free Low Poly Bike Models.fbx using Guid(20b73c2956ee0a94e98accd7dafdbadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaa9279560d4a48eb110d135987c8d6') in 0.120777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.030622 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures
+  artifactKey: Guid(e6658461bcd7add478ed851bf612bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures using Guid(e6658461bcd7add478ed851bf612bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d8c03de80cd7f5ffca0c1ecf50d35') in 0.008734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.890059 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness
+  artifactKey: Guid(5cfec5ce77075e24386f68c29a680663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness using Guid(5cfec5ce77075e24386f68c29a680663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c9588a889557e6e93730f6d42d0dc8') in 0.008813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.725334 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512
+  artifactKey: Guid(e7b0ab2f9c9e4c34380d215cf9b42a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512 using Guid(e7b0ab2f9c9e4c34380d215cf9b42a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda6bad7ec688f214910ab54fb0f1d6c') in 0.008199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084059 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png
+  artifactKey: Guid(6cabf2915cee94644a6b5069af812762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png using Guid(6cabf2915cee94644a6b5069af812762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af9b3cefe4f958561a2e36b38a154a6') in 0.012781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Metallic.png
+  artifactKey: Guid(8e8e13bb03364864b86babe4a276ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Metallic.png using Guid(8e8e13bb03364864b86babe4a276ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf73ff85bce1d5da83cfe941bf22dc9') in 0.026891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png
+  artifactKey: Guid(204f4906030c5e048ab6a3fa4333b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png using Guid(204f4906030c5e048ab6a3fa4333b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e131e87606c7669b3362c0ab1d326a0') in 0.025759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Roughness.png
+  artifactKey: Guid(9668acba78b67e248af84f14248ac75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Roughness.png using Guid(9668acba78b67e248af84f14248ac75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8f453f5b2e0f0cfcb0811cede6fdcd') in 0.017405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Height.png
+  artifactKey: Guid(9480519f6e3db8346854cb2c2c5cd12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/PBR MetalicRoughness/512/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Height.png using Guid(9480519f6e3db8346854cb2c2c5cd12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf36d45e3030da9b6a7a36cefc9ab3b') in 0.015445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.780146 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)
+  artifactKey: Guid(c572b5bb1bf31b742b69f4b23372ffa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed) using Guid(c572b5bb1bf31b742b69f4b23372ffa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356d9478f812d2b6e226248bbb6c4748') in 0.008336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.662519 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024
+  artifactKey: Guid(dd8dcc6ff2734b1409c9763140af9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024 using Guid(dd8dcc6ff2734b1409c9763140af9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb6a07f9d164e871b680eb887b45965') in 0.007796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072896 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png
+  artifactKey: Guid(ff7a7f9a628fa79468a876febbe13153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png using Guid(ff7a7f9a628fa79468a876febbe13153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5690094c218fcfce2c2d7749b5b352a4') in 0.011756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png
+  artifactKey: Guid(7579e5d5ffaac7343a50b4c4be083d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png using Guid(7579e5d5ffaac7343a50b4c4be083d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af268ad4982c7686f3a4afed13a70b74') in 0.015691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(b83cf5b5876be0847ba753fdfeec8b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/1024/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_OcclusionRoughnessMetallic.png using Guid(b83cf5b5876be0847ba753fdfeec8b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de0c9d886a262b8d908daa6605932aa') in 0.022171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.151071 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/Unity URP
+  artifactKey: Guid(634b12ae842f20e45b8a67e6841ab6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/Unity URP using Guid(634b12ae842f20e45b8a67e6841ab6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a8a55233cbca57275a559fcd2df2eb') in 0.008586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693569 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/Unity URP/2048
+  artifactKey: Guid(fe8780ca61a9e2e45a0ab200837ce801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/Unity URP/2048 using Guid(fe8780ca61a9e2e45a0ab200837ce801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e8bb47e7aaa5915f8314c1ec5ff047') in 0.008252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081465 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_AlbedoTransparency.png
+  artifactKey: Guid(a291edeebf6d0e74ebd51a77acea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_AlbedoTransparency.png using Guid(a291edeebf6d0e74ebd51a77acea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0d12dae79792349888ca54bb19e9cb') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_MetallicSmoothness.png
+  artifactKey: Guid(dfe102451184d8e41a1c0a12f7b739a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_MetallicSmoothness.png using Guid(dfe102451184d8e41a1c0a12f7b739a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dab6836f514395e93fce23dd0a886af') in 0.022465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png
+  artifactKey: Guid(f5b91a3e4a7d4e940bd24957262231a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/Unity URP/2048/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png using Guid(f5b91a3e4a7d4e940bd24957262231a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb7e04c0b50d6bfe67ce287df56035d') in 0.026563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.278937 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096
+  artifactKey: Guid(4c9211d9bbadb9d4abda417d4313cd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096 using Guid(4c9211d9bbadb9d4abda417d4313cd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5188cbb99d9f2a90b48c848d9d6051d0') in 0.008164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.517024 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png
+  artifactKey: Guid(481a8ab59f050fe4880c3b803fab2e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_BaseColor.png using Guid(481a8ab59f050fe4880c3b803fab2e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf99215001fb486e786c8779dbf4e02') in 0.013518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png
+  artifactKey: Guid(74a20f28a2b69ae4ebd18bee768b5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_Normal.png using Guid(74a20f28a2b69ae4ebd18bee768b5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a01bc4f5e01b5b72b1929a604deecf') in 0.035236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(675f25cafbe6e804499047fa0a2b4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Bike Models/Textures/UE4 (Packed)/4096/Low Poly Cycles Staggered_Low Poly Cycles (BMX, Mountain Bike, Unicycle) 1_OcclusionRoughnessMetallic.png using Guid(675f25cafbe6e804499047fa0a2b4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afba5014308e284dbd7fd5bdf4ea9ff') in 0.024789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 713.073898 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios
+  artifactKey: Guid(7f7e460d1eabbf64f97a8babfe980048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios using Guid(7f7e460d1eabbf64f97a8babfe980048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597f6543642cf325226466a4fb30eac4') in 0.008631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078206 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Abajur.fbx
+  artifactKey: Guid(ebf2ac040d2e37642b607839b443e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Abajur.fbx using Guid(ebf2ac040d2e37642b607839b443e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17a15ecc39d7f4c99bbdaad5fe4adfc') in 0.104315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Stairs.003.prefab
+  artifactKey: Guid(5875217da78acc0489a0690e33407cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Stairs.003.prefab using Guid(5875217da78acc0489a0690e33407cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd319ca5aabebd244d0c3c5b2cbb0a946') in 0.012451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Cube.prefab
+  artifactKey: Guid(bc86f282941e4594b8a92c0459969acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Cube.prefab using Guid(bc86f282941e4594b8a92c0459969acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27929e2e058bdcf51ba664ce51e41d41') in 0.025637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Panel (1).prefab
+  artifactKey: Guid(8f6deb7d3eff7a84f941431637116da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Panel (1).prefab using Guid(8f6deb7d3eff7a84f941431637116da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f87c194f2ee9dbd717c198baf3b6317') in 0.018950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Panel.prefab
+  artifactKey: Guid(590e4c8bc7ea6f242b047b3ac34d0eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Panel.prefab using Guid(590e4c8bc7ea6f242b047b3ac34d0eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26ec90261c42ff29a97952b775beaaa') in 0.027836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Door.prefab
+  artifactKey: Guid(59e3e4c8b54f45244a3dc64cf780970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Door.prefab using Guid(59e3e4c8b54f45244a3dc64cf780970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197547925f26eac61764af63415afdfa') in 0.019110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.078288 seconds.
+  path: Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Bike.fbx
+  artifactKey: Guid(316c51c831f308d4ab9f2e89f39ae472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsUSADOS}/Modelos/PrefabsPropios/Bike.fbx using Guid(316c51c831f308d4ab9f2e89f39ae472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b4a014a6942f1de7a12258a6f7be5c') in 0.031369 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
