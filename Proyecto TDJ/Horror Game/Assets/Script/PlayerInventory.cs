@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public class PlayerInventory : MonoBehaviour
 {
     public int NumberOfRoses = 0; //{ get; private set; }
-    
     public int NumberOfCandles = 0; //{ get; private set; }
     public int NumberOfLighter = 0; //{ get; private set; }
     public int NumberOfGifts = 0; 
@@ -60,6 +59,7 @@ public class PlayerInventory : MonoBehaviour
     {
         NumberOfGifts++;
         OnGiftsCollected.Invoke(this);
+        Debug.Log("NumberofGifts: " + NumberOfGifts);
     }
 }
 
