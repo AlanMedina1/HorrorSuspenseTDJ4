@@ -13,9 +13,13 @@ public class floreros : MonoBehaviour
 
     private pickupcosas scriptpickup;
 
+    //este parece que funqueishon para poenr las cosas en la mesa
+    public PlayerInventory playerInventory;
+
     void Start()
     {
         scriptpickup = colector.GetComponent<pickupcosas>();
+        PlayerInventory playerInventory = GetComponent<PlayerInventory>();
     }
 
     // Update is called once per frame
@@ -31,7 +35,8 @@ public class floreros : MonoBehaviour
             PickUp.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (scriptpickup.CollectSteps>0) {
+                if (playerInventory.NumberOfRoses == 6)
+                {
                     florero_v.SetActive(false);
                     florero_r.SetActive(true);
 

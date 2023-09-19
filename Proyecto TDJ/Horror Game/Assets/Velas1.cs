@@ -11,10 +11,13 @@ public class Velas1 : MonoBehaviour
     public GameObject velas_r;
 
     private pickupcosas scriptpickup;
+    //este parece que funqueishon para poenr las cosas en la mesa
+    public PlayerInventory playerInventory;
 
     void Start()
     {
         scriptpickup = colector.GetComponent<pickupcosas>();
+        PlayerInventory playerInventory = GetComponent<PlayerInventory>();
     }
 
     // Update is called once per frame
@@ -30,7 +33,7 @@ public class Velas1 : MonoBehaviour
             PickUp.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (scriptpickup.CollectSteps > 2)
+                if ((playerInventory.NumberOfCandles == 2) && (playerInventory.NumberOfLighter == 1))
                 {
                     velas_v.SetActive(false);
                     velas_r.SetActive(true);

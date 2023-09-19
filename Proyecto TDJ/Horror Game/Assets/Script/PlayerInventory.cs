@@ -14,7 +14,7 @@ public class PlayerInventory : MonoBehaviour
     public UnityEvent <PlayerInventory> OnRosesCollected;
     public UnityEvent <PlayerInventory> OnCandlesCollected;
     public UnityEvent <PlayerInventory> OnLighterCollected;
-    public UnityEvent<PlayerInventory> OnGiftsCollected;
+    public UnityEvent <PlayerInventory> OnGiftsCollected;
     public pickupcosas pickupcosas;
 
     void Start(){
