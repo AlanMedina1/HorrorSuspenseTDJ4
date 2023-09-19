@@ -7,6 +7,7 @@ public class pickupcosas : MonoBehaviour
     // Start is called before the first frame update
     //EL LOCKED TEXT ES LO QUE SE USARIA PARA CUANDO EL OBJETO EST� BLOQUEADO
     public GameObject PickUp, lockedtext1, lockedtext2, lockedtext3, logro_reg;
+    
     public AudioSource RosesCollect;
     public AudioSource CandlesCollect;
     public AudioSource LighterCollect;

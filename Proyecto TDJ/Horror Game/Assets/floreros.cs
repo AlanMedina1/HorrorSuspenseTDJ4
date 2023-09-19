@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class floreros : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class floreros : MonoBehaviour
     public GameObject colector; 
     public GameObject florero_v;
     public GameObject florero_r;
+    public GameObject mRosas, mVelas, mRegalos;
 
     private pickupcosas scriptpickup;
 
@@ -39,6 +41,7 @@ public class floreros : MonoBehaviour
                 {
                     florero_v.SetActive(false);
                     florero_r.SetActive(true);
+                    CheckFinal();
 
                 } else {
                     lockedtext4.SetActive(true);
@@ -68,4 +71,20 @@ public class floreros : MonoBehaviour
             
         }
     }
+
+    void CheckFinal(){
+         //tengo  q checkear si los obj estan activos en la escena y en ese caso, cargar la escena
+        if ((mRosas.activeInHierarchy == true) && (mVelas.activeInHierarchy == true) && (mRegalos.activeInHierarchy == true)) {
+            SceneManager.LoadScene("Partida2");
+            //logro_reg.SetActive(false);
+        }
+
+    }
+
+    //lo desactivo en caso de que necesitemos o encontremos la forma de q funque
+    /*public IEnumerator NextLevelAfterWait() {
+     yield return new WaitForSeconds(1.0f);
+    
+     SceneManager.LoadScene("Partida2");
+    }*/ 
 }

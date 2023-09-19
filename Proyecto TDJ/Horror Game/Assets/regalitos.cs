@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class regalitos : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class regalitos : MonoBehaviour
     //este parece que funqueishon para poenr las cosas en la mesa
     public PlayerInventory playerInventory;
     private pickupcosas scriptpickup;
+    public GameObject mRosas, mVelas, mRegalos;
 
     void Start()
     {
@@ -37,6 +39,7 @@ public class regalitos : MonoBehaviour
                 {
                     regalo_v.SetActive(false);
                     regalo_r.SetActive(true);
+                    CheckFinal();
 
                 }
                 else
@@ -69,4 +72,19 @@ public class regalitos : MonoBehaviour
 
         }
     }
+
+    void CheckFinal(){
+         //tengo  q checkear si los obj estan activos en la escena y en ese caso, cargar la escena
+        if ((mRosas.activeInHierarchy == true) && (mVelas.activeInHierarchy == true) && (mRegalos.activeInHierarchy == true)) {
+            SceneManager.LoadScene("Partida2");
+            //logro_reg.SetActive(false);
+        }
+
+    }
+
+    /*public IEnumerator NextLevelAfterWait() {
+     yield return new WaitForSeconds(1.0f);
+    
+     SceneManager.LoadScene("Partida2");
+    }*/
 }

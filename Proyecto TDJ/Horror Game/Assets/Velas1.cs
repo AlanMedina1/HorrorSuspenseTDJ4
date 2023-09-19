@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Velas1 : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Velas1 : MonoBehaviour
     public GameObject colector;
     public GameObject velas_v;
     public GameObject velas_r;
+    public GameObject mRosas, mVelas, mRegalos;
 
     private pickupcosas scriptpickup;
     //este parece que funqueishon para poenr las cosas en la mesa
@@ -37,6 +39,7 @@ public class Velas1 : MonoBehaviour
                 {
                     velas_v.SetActive(false);
                     velas_r.SetActive(true);
+                    CheckFinal();
 
                 }
                 else
@@ -69,4 +72,20 @@ public class Velas1 : MonoBehaviour
 
         }
     }
+
+    void CheckFinal(){
+         //tengo  q checkear si los obj estan activos en la escena y en ese caso, cargar la escena
+        if ((mRosas.activeInHierarchy == true) && (mVelas.activeInHierarchy == true) && (mRegalos.activeInHierarchy == true)) {
+            SceneManager.LoadScene("Partida2");
+            //StartCoroutine(NextLevelAfterWait());
+            //logro_reg.SetActive(false);
+        }
+
+    }
+
+    /*public  IEnumerator NextLevelAfterWait() {
+     yield return new WaitForSeconds(1.0f);
+    
+     SceneManager.LoadScene("Partida2");
+    }*/
 }
