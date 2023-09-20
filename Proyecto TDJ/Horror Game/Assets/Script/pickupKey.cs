@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class pickupKey : MonoBehaviour
 {
+    //[SerializeField] private Transform objectGrabPointTransform;
     public GameObject PickUp, key;
     public AudioSource pickup;
     public bool interactable;
@@ -25,7 +26,8 @@ public class pickupKey : MonoBehaviour
     { 
         if(interactable == true)
         {
-            if(Input.GetKeyDown(KeyCode.E))
+            //Physics.Raycast(transform.position, transform.forward);
+            if (Input.GetKeyDown(KeyCode.E)) 
             {
                 PickUp.SetActive(false);
                 interactable = false;

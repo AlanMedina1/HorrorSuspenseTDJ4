@@ -17,9 +17,10 @@ public class interaccion : MonoBehaviour
         if(Physics.Raycast(transform.position, transform.forward, out hit, interactionDistance, interactionLayers)) {
             
             if (hit.collider.gameObject.GetComponent<Dibujos>()){
+                PickUp.SetActive(true);
                 interactionText.SetActive(true);
 
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.E) && CompareTag("Reach")) ;
                 {
                     hit.collider.gameObject.GetComponent<Dibujos>().abrirCerrarDibujo();
                 }

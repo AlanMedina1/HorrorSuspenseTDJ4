@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class door : MonoBehaviour
 {
     public GameObject PickUp, key, lockedText;
@@ -9,14 +10,20 @@ public class door : MonoBehaviour
     public Animator doorAnim;
     public AudioSource doorSound;
     public AudioSource doorSounderror;
+    public float timeToEnable;
+
+
+    private BoxCollider collider;
+
 
     void Start()
     {
         interactable = false;
+        collider = GetComponent<BoxCollider>();
     }
     void OnTriggerStay(Collider other)
     {
-        if(other.CompareTag("Reach"))
+        if (other.CompareTag("Reach"))
         {
             PickUp.SetActive(true);
             interactable = true;
@@ -31,12 +38,12 @@ public class door : MonoBehaviour
         }
     }
     void Update()
-    { 
-        if(interactable==true)
+    {
+        if (interactable == true)
         {
-            if(Input.GetKeyDown(KeyCode.E))
-           {
-                if(key.active == false)
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (key.active == false)
                 {
                     toggle = !toggle;
                     if (toggle == true)
@@ -44,17 +51,20 @@ public class door : MonoBehaviour
                         doorAnim.ResetTrigger("close");
                         doorAnim.SetTrigger("open");
                         doorSound.Play();
+                        collider.enabled = false;
+                        StartCoroutine(EnabledColliders());
                     }
                     if (toggle == false)
                     {
                         doorAnim.ResetTrigger("open");
                         doorAnim.SetTrigger("close");
                         doorSound.Play();
+                        
                     }
                     PickUp.SetActive(false);
                     interactable = false;
                 }
-               if(key.active == true)
+                if (key.active == true)
                 {
                     lockedText.SetActive(true);
                     StopCoroutine("disableText");
@@ -63,11 +73,18 @@ public class door : MonoBehaviour
                 }
             }
         }
-   
+
     }
     IEnumerator disableText()
     {
         yield return new WaitForSeconds(1.0f);
         lockedText.SetActive(false);
+    }
+
+
+    IEnumerator EnabledColliders()
+    {
+        yield return new WaitForSeconds(timeToEnable);
+        collider.enabled = true;
     }
 }
