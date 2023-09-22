@@ -18,7 +18,7 @@ public class pickupcosas : MonoBehaviour
     public int CollectSteps = 0;
     public PlayerInventory playerInventory;
 
-    public bool recogido= false;
+    public bool recogido = false;
     void Start()
     {
         PickUp.SetActive(false);

@@ -19,7 +19,7 @@ public class PlayerPickUpDrop : MonoBehaviour
             if(objectGrabbable == null) 
            { 
                 //no sosteniendo algo, lo agarra
-            float pickUpDistance = 15f;
+            float pickUpDistance = 10f;
             if(Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask))
             {
                 Debug.Log(raycastHit.transform);

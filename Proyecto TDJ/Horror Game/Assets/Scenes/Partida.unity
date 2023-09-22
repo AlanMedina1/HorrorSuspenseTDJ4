@@ -5060,7 +5060,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7346
+  m_Name: pb_Mesh-3472
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5239,8 +5239,8 @@ GameObject:
   - component: {fileID: 113722297}
   - component: {fileID: 113722295}
   - component: {fileID: 113722294}
-  - component: {fileID: 113722296}
   - component: {fileID: 113722293}
+  - component: {fileID: 113722303}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -5340,7 +5340,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  pickupcosas: {fileID: 113722296}
+  pickupcosas: {fileID: 0}
 --- !u!114 &113722295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5358,31 +5358,6 @@ MonoBehaviour:
   pickUpLayerMask:
     serializedVersion: 2
     m_Bits: 375
---- !u!114 &113722296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113722292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 1991724983}
-  lockedtext1: {fileID: 0}
-  lockedtext2: {fileID: 0}
-  lockedtext3: {fileID: 0}
-  logro_reg: {fileID: 1283617840}
-  RosesCollect: {fileID: 686415436}
-  CandlesCollect: {fileID: 962509089}
-  LighterCollect: {fileID: 1105195529}
-  GiftsCollect: {fileID: 131104876}
-  trigger_cuadro: {fileID: 0}
-  CollectSteps: 0
-  playerInventory: {fileID: 113722294}
-  recogido: 0
 --- !u!143 &113722297
 CharacterController:
   m_ObjectHideFlags: 0
@@ -5494,18 +5469,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113722292}
   m_LocalRotation: {x: -0, y: 0.34916118, z: -0, w: 0.9370627}
-  m_LocalPosition: {x: -73.01, y: -8.5, z: 105.92}
+  m_LocalPosition: {x: -58.96, y: 17.2, z: 111.73}
   m_LocalScale: {x: 5.2553205, y: 4.4273334, z: 1.6059}
   m_Children:
   - {fileID: 532720954}
   - {fileID: 652137997}
   - {fileID: 941792756}
   - {fileID: 1709890332}
-  - {fileID: 1977551097}
   - {fileID: 217711447}
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 40.872, z: 0}
+--- !u!114 &113722303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113722292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf9c25e3385f3914598541651bc41a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensaje: {fileID: 1991724983}
+  interaccion: 0
 --- !u!1 &116368486
 GameObject:
   m_ObjectHideFlags: 0
@@ -9034,7 +9022,7 @@ Transform:
   m_LocalScale: {x: 0.67999756, y: 0.1628858, z: 0.4146315}
   m_Children: []
   m_Father: {fileID: 113722302}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &219002911
 PrefabInstance:
@@ -9284,7 +9272,7 @@ GameObject:
   - component: {fileID: 234639062}
   - component: {fileID: 234639061}
   - component: {fileID: 234639066}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll2
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -10352,7 +10340,7 @@ GameObject:
   - component: {fileID: 264789601}
   - component: {fileID: 264789602}
   - component: {fileID: 264789606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll5
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -13236,6 +13224,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317997631}
   m_Mesh: {fileID: 4300000, guid: e73bbd46716752f48815c8bf7e0c90fb, type: 3}
+--- !u!1 &323746355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7690519952026649423, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
+  m_PrefabInstance: {fileID: 1329503844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &323746359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323746355}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6256016, y: 0.9470257, z: 1.4203156}
+  m_Center: {x: 0.103663445, y: 0.47633573, z: -0.015895082}
 --- !u!1001 &325988612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18362,7 +18368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &453537871
 Transform:
   m_ObjectHideFlags: 0
@@ -26133,7 +26139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &652137997
 Transform:
   m_ObjectHideFlags: 0
@@ -28632,7 +28638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &737482122
 Transform:
   m_ObjectHideFlags: 0
@@ -29889,9 +29895,9 @@ GameObject:
   m_Component:
   - component: {fileID: 767462066}
   - component: {fileID: 767462067}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Raycast
-  m_TagString: Reach
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29908,7 +29914,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 941792756}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &767462067
 MonoBehaviour:
@@ -29922,7 +29928,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8240a655e29ec46ae169cd6c547fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 8
+  logro_reg: {fileID: 1283617840}
+  distancia: 6
+  puedeagarrar2: 1
+  capainterac:
+    serializedVersion: 2
+    m_Bits: 1024
+  playerInventory: {fileID: 113722294}
+  RosesCollect: {fileID: 686415436}
+  CandlesCollect: {fileID: 962509089}
+  LighterCollect: {fileID: 2141242849}
+  GiftsCollect: {fileID: 131104876}
+  pickup: {fileID: 0}
+  recogido: 0
 --- !u!1 &774306508
 GameObject:
   m_ObjectHideFlags: 0
@@ -32379,7 +32397,7 @@ GameObject:
   - component: {fileID: 833324879}
   - component: {fileID: 833324880}
   - component: {fileID: 833324884}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll4
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -34069,7 +34087,7 @@ GameObject:
   - component: {fileID: 879082202}
   - component: {fileID: 879082203}
   - component: {fileID: 879082207}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll4
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -36007,6 +36025,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0.34, z: -0.28}
   m_LocalScale: {x: 1.1612, y: 0.8249776, z: 1.0024}
   m_Children:
+  - {fileID: 1977551097}
   - {fileID: 767462066}
   m_Father: {fileID: 113722302}
   m_RootOrder: 2
@@ -36050,7 +36069,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1079
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -36209,6 +36228,10 @@ PrefabInstance:
     - target: {fileID: 6555345144227376649, guid: c666c7257fe3046859d7986a4dd9700c, type: 3}
       propertyPath: m_Name
       value: FreeRefrigerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6555345144227376649, guid: c666c7257fe3046859d7986a4dd9700c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c666c7257fe3046859d7986a4dd9700c, type: 3}
@@ -36641,12 +36664,12 @@ GameObject:
   - component: {fileID: 964117185}
   - component: {fileID: 964117184}
   - component: {fileID: 964117187}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: vela (1)
   m_TagString: Velas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &964117183
 Transform:
@@ -41983,7 +42006,7 @@ GameObject:
   - component: {fileID: 1147538583}
   - component: {fileID: 1147538586}
   - component: {fileID: 1147538587}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: encendedor
   m_TagString: Encendedor
   m_Icon: {fileID: 0}
@@ -43111,129 +43134,6 @@ Transform:
   m_Father: {fileID: 1166642150}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1171122365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1171122366}
-  - component: {fileID: 1171122369}
-  - component: {fileID: 1171122368}
-  - component: {fileID: 1171122367}
-  - component: {fileID: 1171122370}
-  m_Layer: 0
-  m_Name: vela (2)
-  m_TagString: Velas
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1171122366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171122365}
-  m_LocalRotation: {x: -0.6154321, y: 0.69974566, z: -0.3177818, w: 0.17496914}
-  m_LocalPosition: {x: 22.172, y: -0.363, z: -10.788}
-  m_LocalScale: {x: 3, y: 3, z: 3}
-  m_Children: []
-  m_Father: {fileID: 2017475035}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 13.26, y: 139.199, z: -87.614}
---- !u!65 &1171122367
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171122365}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.03636006, y: 0.030252906, z: 0.09405543}
-  m_Center: {x: 0.010844601, y: -0.00002851644, z: 0.029652163}
---- !u!23 &1171122368
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171122365}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 7173250561080377353, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
-  - {fileID: 2895064947943234598, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
-  - {fileID: -5545382689189843439, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1171122369
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171122365}
-  m_Mesh: {fileID: 2534964839176971238, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
---- !u!114 &1171122370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171122365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 1991724983}
-  lockedtext1: {fileID: 1624946226}
-  lockedtext2: {fileID: 390266549}
-  lockedtext3: {fileID: 1239971093}
-  logro_reg: {fileID: 1283617840}
-  RosesCollect: {fileID: 0}
-  CandlesCollect: {fileID: 962509089}
-  LighterCollect: {fileID: 0}
-  GiftsCollect: {fileID: 0}
-  trigger_cuadro: {fileID: 0}
-  CollectSteps: 0
-  playerInventory: {fileID: 113722294}
-  recogido: 0
 --- !u!1 &1175305908
 GameObject:
   m_ObjectHideFlags: 0
@@ -48972,6 +48872,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5305111959301670934, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7057676674919963125, guid: 6f43b2566a8dcad4aa8e75125eeda38e, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -53989,7 +53893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1444781566
 Transform:
   m_ObjectHideFlags: 0
@@ -53998,7 +53902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444781565}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -146.64, y: 17.47, z: 131.5558}
+  m_LocalPosition: {x: -146.64, y: 17.43, z: 131.5558}
   m_LocalScale: {x: 2.0356, y: 0.060083568, z: 2.5834}
   m_Children: []
   m_Father: {fileID: 630335656}
@@ -59898,15 +59802,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1584852124}
-  - component: {fileID: 1584852123}
   - component: {fileID: 1584852122}
   - component: {fileID: 1584852121}
   - component: {fileID: 1584852120}
   - component: {fileID: 1584852119}
   - component: {fileID: 1584852118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Llavejardin
-  m_TagString: Untagged
+  m_TagString: Llave2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60051,22 +59954,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584852117}
   m_Mesh: {fileID: -8133721517305759146, guid: 6668c581a1b79354fba72cacd070cf6b, type: 3}
---- !u!114 &1584852123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584852117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433aca993db5b3948b35cc7ed228e3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 1991724983}
-  key: {fileID: 1584852117}
-  pickup: {fileID: 2141242849}
-  interactable: 0
 --- !u!4 &1584852124
 Transform:
   m_ObjectHideFlags: 0
@@ -70072,6 +69959,129 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841780130}
   m_Mesh: {fileID: -2692173099160107876, guid: 8b8fa4c7f8f605a4a894e04d0f7f5c42, type: 3}
+--- !u!1 &1842140328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842140329}
+  - component: {fileID: 1842140333}
+  - component: {fileID: 1842140332}
+  - component: {fileID: 1842140331}
+  - component: {fileID: 1842140330}
+  m_Layer: 10
+  m_Name: vela (2)
+  m_TagString: Velas
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842140329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842140328}
+  m_LocalRotation: {x: 0.37067232, y: -0.31140575, z: -0.5628376, w: 0.66995704}
+  m_LocalPosition: {x: 22.548, y: -0.38, z: -10.875}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 2017475035}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 8.403, y: -57.519, z: -84.685}
+--- !u!114 &1842140330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842140328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf58db772d23c44b8ffcbbfc4523074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickUp: {fileID: 1991724983}
+  lockedtext1: {fileID: 1624946226}
+  lockedtext2: {fileID: 390266549}
+  lockedtext3: {fileID: 1239971093}
+  logro_reg: {fileID: 1283617840}
+  RosesCollect: {fileID: 0}
+  CandlesCollect: {fileID: 962509089}
+  LighterCollect: {fileID: 0}
+  GiftsCollect: {fileID: 0}
+  trigger_cuadro: {fileID: 0}
+  CollectSteps: 0
+  playerInventory: {fileID: 113722294}
+  recogido: 0
+--- !u!65 &1842140331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842140328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06744902, y: 0.08609451, z: 0.18011051}
+  m_Center: {x: -0.00000024012078, y: 0.0018632761, z: 0.01604576}
+--- !u!23 &1842140332
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842140328}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 7173250561080377353, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
+  - {fileID: 2895064947943234598, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
+  - {fileID: -5545382689189843439, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1842140333
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842140328}
+  m_Mesh: {fileID: 2534964839176971238, guid: c943f07042f66564297e4da2fd1f5cfc, type: 3}
 --- !u!1001 &1846890110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73967,7 +73977,7 @@ GameObject:
   - component: {fileID: 1929120255}
   - component: {fileID: 1929120256}
   - component: {fileID: 1929120260}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll3
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -75875,11 +75885,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977551096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.13, y: 0.047621965, z: 3.78}
-  m_LocalScale: {x: 1.9879001, y: 1.76028, z: 1.9926708}
+  m_LocalPosition: {x: 0.067, y: -0.35440725, z: 3.41}
+  m_LocalScale: {x: 1.7119361, y: 2.133731, z: 1.9878998}
   m_Children: []
-  m_Father: {fileID: 113722302}
-  m_RootOrder: 4
+  m_Father: {fileID: 941792756}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1978351688
 GameObject:
@@ -77990,7 +78000,7 @@ Transform:
   m_LocalScale: {x: 0.46666652, y: 0.4666667, z: 0.31818178}
   m_Children:
   - {fileID: 964117183}
-  - {fileID: 1171122366}
+  - {fileID: 1842140329}
   m_Father: {fileID: 6887134771224263956}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79622,6 +79632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FreeCabinet02
       objectReference: {fileID: 0}
+    - target: {fileID: 3132256824591905640, guid: 1cf3fa848684a40c89252e5dfeb46937, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cf3fa848684a40c89252e5dfeb46937, type: 3}
 --- !u!1 &2059399555
@@ -80760,7 +80774,7 @@ GameObject:
   - component: {fileID: 2091005553}
   - component: {fileID: 2091005554}
   - component: {fileID: 2091005558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rosacoll
   m_TagString: Rosas
   m_Icon: {fileID: 0}
@@ -84235,35 +84249,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653174926968}
-  - component: {fileID: 919132148647220419}
   - component: {fileID: 3469287836958392797}
   - component: {fileID: 1711813856183842071}
   - component: {fileID: 555813771}
   - component: {fileID: 555813770}
   - component: {fileID: 555813766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LlavePiezaMadre
-  m_TagString: Untagged
+  m_TagString: Llave3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148647220419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148647220418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433aca993db5b3948b35cc7ed228e3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 1991724983}
-  key: {fileID: 919132148647220418}
-  pickup: {fileID: 2141242849}
-  interactable: 0
 --- !u!1 &919132149162355110
 GameObject:
   m_ObjectHideFlags: 0
@@ -84309,14 +84306,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463185881532666261}
-  - component: {fileID: 947517023545150257}
   - component: {fileID: 3585510234261823024}
   - component: {fileID: 1596171777151920890}
   - component: {fileID: 947517023545150256}
   - component: {fileID: 947517023545150258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LlavePrincipal
-  m_TagString: Untagged
+  m_TagString: Llave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84337,22 +84333,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &947517023545150257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947517023545150255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 433aca993db5b3948b35cc7ed228e3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 1991724983}
-  key: {fileID: 947517023545150255}
-  pickup: {fileID: 2141242849}
-  interactable: 0
 --- !u!65 &947517023545150258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84563,7 +84543,7 @@ GameObject:
   - component: {fileID: 7554405012790086682}
   - component: {fileID: 1145238458504540471}
   - component: {fileID: 1145238458504540470}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gift_CubeTiny_LOD0
   m_TagString: Regalo
   m_Icon: {fileID: 0}
@@ -87373,7 +87353,7 @@ GameObject:
   - component: {fileID: 4817565419994186072}
   - component: {fileID: 2731847842195471481}
   - component: {fileID: 2731847842195471480}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gift_CubeTiny_LOD0
   m_TagString: Regalo
   m_Icon: {fileID: 0}
@@ -90301,7 +90281,7 @@ GameObject:
   - component: {fileID: 6420876553221983834}
   - component: {fileID: 4479285226276762487}
   - component: {fileID: 4479285226276762486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gift_CubeTiny_LOD0
   m_TagString: Regalo
   m_Icon: {fileID: 0}
