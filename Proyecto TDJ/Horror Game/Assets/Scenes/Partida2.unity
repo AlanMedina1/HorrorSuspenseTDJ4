@@ -636,6 +636,7 @@ MonoBehaviour:
   doorAnim: {fileID: 22509331}
   doorSound: {fileID: 0}
   doorSounderror: {fileID: 0}
+  timeToEnable: 0
 --- !u!1 &32198498
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +957,7 @@ MonoBehaviour:
   doorAnim: {fileID: 37300518}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!65 &37300520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17641,6 +17643,7 @@ MonoBehaviour:
   doorAnim: {fileID: 746168844}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!65 &746168846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17875,6 +17878,7 @@ MonoBehaviour:
   doorAnim: {fileID: 747197151}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!1 &747307913
 GameObject:
   m_ObjectHideFlags: 0
@@ -19219,7 +19223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'logro1
+  m_Text: 'logro6
 
 '
 --- !u!222 &771855610
@@ -28615,6 +28619,7 @@ MonoBehaviour:
   doorAnim: {fileID: 1100993445}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!1001 &1103601550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37426,6 +37431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1432638762}
   - component: {fileID: 1432638761}
+  - component: {fileID: 1432638763}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -37459,6 +37465,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432638763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432638760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2943af19eef2972449375ff037748fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logro_6: {fileID: 927491549}
+  logro_activo: 0
 --- !u!1 &1441816852
 GameObject:
   m_ObjectHideFlags: 0
@@ -43452,6 +43472,7 @@ MonoBehaviour:
   doorAnim: {fileID: 1673035844}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!1 &1673835900
 GameObject:
   m_ObjectHideFlags: 0
@@ -53309,6 +53330,7 @@ MonoBehaviour:
   doorAnim: {fileID: 1975748980}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!1 &1990800201
 GameObject:
   m_ObjectHideFlags: 0
@@ -54128,6 +54150,7 @@ MonoBehaviour:
   doorAnim: {fileID: 2027139317}
   doorSound: {fileID: 1061915229}
   doorSounderror: {fileID: 1061915229}
+  timeToEnable: 0
 --- !u!1 &2030963391
 GameObject:
   m_ObjectHideFlags: 0

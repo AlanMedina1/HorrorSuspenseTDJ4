@@ -16,7 +16,7 @@ public class Raycast_Intento : MonoBehaviour
     public AudioSource GiftsCollect;
     public AudioSource pickup;
     //CODIGO PARA LOS LOGROS
-    public bool recogido = false;
+    public bool recogidol1 = false;
     void Start()
     {
         //PickUp.SetActive(false);
@@ -24,7 +24,7 @@ public class Raycast_Intento : MonoBehaviour
         PlayerInventory playerInventory = GetComponent<PlayerInventory>();
     }
 
-    //COSO DE LOGROS NO SE SOFI VOS SABES
+    //COSO DE LOGROS NO SE SOFI VOS SABES //esto es lo q desactiva el logro dsp de aparecer chinchu
     IEnumerator disableLogro()
     {
         yield return new WaitForSeconds(2.0f);
@@ -83,7 +83,7 @@ public class Raycast_Intento : MonoBehaviour
                     playerInventory.GiftsCollected();
                     GiftsCollect.Play();
                 }
-                //ESTO TENGO QUE SEGUIR PROBANDOLO MAÑANA
+                //ESTO TENGO QUE SEGUIR PROBANDOLO MAï¿½ANA
                 /* if (hit.transform.gameObject.tag == "Llave")
                  {
                      hit.transform.gameObject.SetActive(false);
@@ -136,13 +136,18 @@ public class Raycast_Intento : MonoBehaviour
              }*/
         }
         //LOGROS LOGROS LOGROS LOGROS
-        if (recogido == false)
-        {
-            logro_reg.SetActive(true);
-            StopCoroutine("disableLogro");
-            StartCoroutine("disableLogro");
+       
 
-            recogido = true;
+        if (playerInventory.NumberOfGifts== 3) {
+            if (recogidol1 == false)
+            {
+             logro_reg.SetActive(true);
+             StopCoroutine("disableLogro");
+             StartCoroutine("disableLogro");
+
+             recogidol1 = true;
+
+            }
 
         }
     }
