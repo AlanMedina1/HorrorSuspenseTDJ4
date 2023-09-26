@@ -17,6 +17,8 @@ public class Raycast_Intento : MonoBehaviour
     public AudioSource pickup;
     //CODIGO PARA LOS LOGROS
     public bool recogidol1 = false;
+
+    public GameObject keypadIU;
     void Start()
     {
         //PickUp.SetActive(false);
@@ -127,6 +129,12 @@ public class Raycast_Intento : MonoBehaviour
                     hit.collider.gameObject.GetComponent<regalitos>().ponerRegalos();
 
                 }
+
+                if(hit.transform.gameObject.tag == "keypad") {
+                    Debug.Log("keypad");
+                    hit.collider.gameObject.GetComponent<openKeyPad>().abrirKeypad();
+
+                }
             }
             /*if (Physics.Raycast(transform.position, transform.forward, out hit, distancia, capaObjetos))
             {
@@ -163,7 +171,7 @@ public class Raycast_Intento : MonoBehaviour
         //LOGROS LOGROS LOGROS LOGROS
        
 
-        if (playerInventory.NumberOfGifts== 3) {
+        /*if (playerInventory.NumberOfGifts== 3) {
             if (recogidol1 == false)
             {
              logro_reg.SetActive(true);
@@ -174,6 +182,6 @@ public class Raycast_Intento : MonoBehaviour
 
             }
 
-        }
+        }*/
     }
 }

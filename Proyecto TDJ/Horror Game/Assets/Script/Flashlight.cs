@@ -44,7 +44,7 @@ public class Flashlight : MonoBehaviour
         FlashlightActive = true;
         turnOnsound.Play();
     }
-    void LightOff()
+    public void LightOff()
     {
         FlashlightLight.SetActive(false);
         FlashlightActive = false;
