@@ -18,10 +18,10 @@ public class door : MonoBehaviour
 
     void Start()
     {
-        interactable = false;
+        //interactable = false;
         collider = GetComponent<BoxCollider>();
     }
-    void OnTriggerStay(Collider other)
+    /*void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Reach"))
         {
@@ -36,9 +36,42 @@ public class door : MonoBehaviour
             PickUp.SetActive(false);
             interactable = false;
         }
+    }*/
+
+    public void abrirCerrarPuerta() {
+        if (key.activeInHierarchy == false)
+                {
+                    toggle = !toggle;
+                    if (toggle == true)
+                    {
+                        doorAnim.ResetTrigger("close");
+                        doorAnim.SetTrigger("open");
+                        doorSound.Play();
+                        collider.enabled = false;
+                        StartCoroutine(EnabledColliders());
+                    }
+                    if (toggle == false)
+                    {
+                        doorAnim.ResetTrigger("open");
+                        doorAnim.SetTrigger("close");
+                        doorSound.Play();
+                        
+                    }
+                    PickUp.SetActive(false);
+                    interactable = false;
+                }
+                if (key.activeInHierarchy == true)
+                {
+                    lockedText.SetActive(true);
+                    StopCoroutine("disableText");
+                    StartCoroutine("disableText");
+                    doorSounderror.Play();
+                }
+        
     }
     void Update()
     {
+        /*
         if (interactable == true)
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -72,7 +105,7 @@ public class door : MonoBehaviour
                     doorSounderror.Play();
                 }
             }
-        }
+        }*/
 
     }
     IEnumerator disableText()

@@ -28,7 +28,24 @@ public class regalitos : MonoBehaviour
 
     }
 
-    void OnTriggerStay(Collider other)
+    public void ponerRegalos() {
+        if (playerInventory.NumberOfGifts == 3)
+        {
+            regalo_v.SetActive(false);
+            regalo_r.SetActive(true);
+            CheckFinal();
+
+        }
+        else
+        {
+            lockedtext6.SetActive(true);
+            StopCoroutine("disableText");
+            StartCoroutine("disableText");
+        }
+
+    }
+
+    /*void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Reach"))
         {
@@ -52,7 +69,7 @@ public class regalitos : MonoBehaviour
             }
 
         }
-    }
+    }*/
 
     IEnumerator disableText()
     {
@@ -64,14 +81,14 @@ public class regalitos : MonoBehaviour
         }
 
     }
-    void OnTriggerExit(Collider other)
+    /*void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Reach"))
         {
             PickUp.SetActive(false);
 
         }
-    }
+    }*/
 
     void CheckFinal(){
          //tengo  q checkear si los obj estan activos en la escena y en ese caso, cargar la escena

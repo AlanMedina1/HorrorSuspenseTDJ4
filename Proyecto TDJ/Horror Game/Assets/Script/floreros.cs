@@ -20,7 +20,7 @@ public class floreros : MonoBehaviour
 
     void Start()
     {
-        scriptpickup = colector.GetComponent<pickupcosas>();
+        //scriptpickup = colector.GetComponent<pickupcosas>();
         PlayerInventory playerInventory = GetComponent<PlayerInventory>();
     }
 
@@ -30,7 +30,24 @@ public class floreros : MonoBehaviour
         
     }
 
-    void OnTriggerStay(Collider other)
+    public void ponerFlores() {
+        if (playerInventory.NumberOfRoses == 6)
+        {
+            florero_v.SetActive(false);
+            florero_r.SetActive(true);
+            CheckFinal();
+
+        } else {
+
+            lockedtext4.SetActive(true);
+            StopCoroutine("disableText");
+            StartCoroutine("disableText");
+        }
+            
+
+    }
+
+    /*void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Reach"))
         {
@@ -52,7 +69,7 @@ public class floreros : MonoBehaviour
             } 
             
         }
-    }
+    }*/
 
     IEnumerator disableText()
     {

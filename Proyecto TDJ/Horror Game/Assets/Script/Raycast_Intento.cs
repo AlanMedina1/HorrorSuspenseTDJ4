@@ -5,7 +5,7 @@ using UnityEngine;
 public class Raycast_Intento : MonoBehaviour
 {
     public GameObject logro_reg;
-    public float distancia = 7f;
+    public float distancia = 10f;
     public bool puedeagarrar2 = true;
     public LayerMask capainterac;
     public PlayerInventory playerInventory;
@@ -84,12 +84,12 @@ public class Raycast_Intento : MonoBehaviour
                     GiftsCollect.Play();
                 }
                 //ESTO TENGO QUE SEGUIR PROBANDOLO MA�ANA
-                /* if (hit.transform.gameObject.tag == "Llave")
-                 {
-                     hit.transform.gameObject.SetActive(false);
-                     ESTO NO :playerInventory.GiftsCollected();
-                     pickup.Play();
-                 }
+                if (hit.transform.gameObject.tag == "Llave")
+                {
+                    hit.transform.gameObject.SetActive(false);
+                    pickup.Play();
+                }
+                /*
                  if (hit.transform.gameObject.tag == "Llave2")
                  {
                      hit.transform.gameObject.SetActive(false);
@@ -102,6 +102,31 @@ public class Raycast_Intento : MonoBehaviour
                      ESTO NO :playerInventory.GiftsCollected();
                      pickup.Play();
                  }*/
+
+                 if (hit.transform.gameObject.tag == "dibujo")
+                {
+                    hit.collider.gameObject.GetComponent<Dibujos>().abrirCerrarDibujo();
+                }
+
+                if(hit.transform.gameObject.tag == "puerta") 
+                {
+                    hit.collider.gameObject.GetComponent<door>().abrirCerrarPuerta();
+
+                }
+
+                if(hit.transform.gameObject.tag == "florero") {
+                    hit.collider.gameObject.GetComponent<floreros>().ponerFlores();
+
+                }
+
+                if(hit.transform.gameObject.tag == "base") {
+                    hit.collider.gameObject.GetComponent<Velas1>().ponerVelas();
+
+                }
+                if(hit.transform.gameObject.tag == "base_r") {
+                    hit.collider.gameObject.GetComponent<regalitos>().ponerRegalos();
+
+                }
             }
             /*if (Physics.Raycast(transform.position, transform.forward, out hit, distancia, capaObjetos))
             {

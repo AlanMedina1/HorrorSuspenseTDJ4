@@ -28,7 +28,24 @@ public class Velas1 : MonoBehaviour
 
     }
 
-    void OnTriggerStay(Collider other)
+    public void ponerVelas() {
+        if ((playerInventory.NumberOfCandles == 2) && (playerInventory.NumberOfLighter == 1))
+            {
+                velas_v.SetActive(false);
+                velas_r.SetActive(true);
+                CheckFinal();
+
+            }
+            else
+            {
+                lockedtext5.SetActive(true);
+                StopCoroutine("disableText");
+                StartCoroutine("disableText");
+            }
+
+    }
+
+    /*void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Reach"))
         {
@@ -52,7 +69,7 @@ public class Velas1 : MonoBehaviour
             }
 
         }
-    }
+    }*/
 
     IEnumerator disableText()
     {
