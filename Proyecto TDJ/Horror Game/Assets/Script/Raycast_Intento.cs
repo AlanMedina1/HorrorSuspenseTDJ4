@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Raycast_Intento : MonoBehaviour
 {
-    public GameObject logro_reg;
+    public GameObject logro_reg, logro_regalo;
     public float distancia = 10f;
     public bool puedeagarrar2 = true;
     public LayerMask capainterac;
@@ -17,6 +17,7 @@ public class Raycast_Intento : MonoBehaviour
     public AudioSource pickup;
     //CODIGO PARA LOS LOGROS
     public bool recogidol1 = false;
+    public bool recogidol2 = false;
 
     public GameObject keypadIU;
     void Start()
@@ -167,11 +168,16 @@ public class Raycast_Intento : MonoBehaviour
                      hit.transform.gameObject.SetActive(false);
                  }
              }*/
+
+
+             
         }
         //LOGROS LOGROS LOGROS LOGROS
        
 
-        /*if (playerInventory.NumberOfGifts== 3) {
+       
+
+        if (playerInventory.NumberOfGifts== 3) {
             if (recogidol1 == false)
             {
              logro_reg.SetActive(true);
@@ -182,6 +188,23 @@ public class Raycast_Intento : MonoBehaviour
 
             }
 
-        }*/
+        }
+
+        if ((playerInventory.NumberOfGifts == 3) && (playerInventory.NumberOfRoses == 6) && (playerInventory.NumberOfCandles == 2) && (playerInventory.NumberOfLighter == 1)){
+            if (recogidol2 == false)
+            {
+             logro_regalo.SetActive(true);
+             StopCoroutine("disableLogro");
+             StartCoroutine("disableLogro");
+
+             recogidol2 = true;
+
+            }
+
+        }
+
+        
     }
+
+    
 }
