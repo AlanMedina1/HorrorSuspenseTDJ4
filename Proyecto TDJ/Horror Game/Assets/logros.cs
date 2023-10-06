@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +6,7 @@ public class logros : MonoBehaviour
 {
     public GameObject logro_6;
     public bool logro_activo=false;
+    
     
     // Start is called before the first frame update
     void Start()
