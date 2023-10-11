@@ -46,7 +46,9 @@ public class Dibujos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (toggle == true) {
+            player.enabled = false;
+        }
     }
 
     

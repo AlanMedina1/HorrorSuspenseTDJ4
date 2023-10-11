@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class pause : MonoBehaviour
 {
-    public GameObject pausemenu;
+    public GameObject pausemenu, nopause;
     public string sceneName;
     public bool toggle;
     public SC_FPSController playerScript;
@@ -23,6 +23,10 @@ public class pause : MonoBehaviour
                 playerScript.enabled = true;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
+
+                if (nopause.activeInHierarchy == false) {
+                    nopause.SetActive(true);
+                }
             }
                 if(toggle == true)
             {
@@ -32,6 +36,9 @@ public class pause : MonoBehaviour
                 playerScript.enabled = false;
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
+                if (nopause.activeInHierarchy == true) {
+                    nopause.SetActive(false);
+                }
             }
             
 
@@ -39,6 +46,9 @@ public class pause : MonoBehaviour
     }
     public void resumeGame()
     {
+        if (nopause.activeInHierarchy == false) {
+                    nopause.SetActive(true);
+        }
         toggle = false;
         pausemenu.SetActive(false);
         AudioListener.pause = false;
