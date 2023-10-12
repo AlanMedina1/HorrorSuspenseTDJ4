@@ -34,7 +34,7 @@ public class logroDibujo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if((dibujo1>0) && (dibujo2>0) && (dibujo3>0)) {
         

@@ -10,7 +10,7 @@ public class pause : MonoBehaviour
     public bool toggle;
     public SC_FPSController playerScript;
 
-    void FixedUpdate()
+    void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
