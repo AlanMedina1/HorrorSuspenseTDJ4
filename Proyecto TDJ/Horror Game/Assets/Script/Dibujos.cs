@@ -49,6 +49,7 @@ public class Dibujos : MonoBehaviour
         if (toggle == true) {
             player.enabled = false;
         }
+        
     }
 
     
