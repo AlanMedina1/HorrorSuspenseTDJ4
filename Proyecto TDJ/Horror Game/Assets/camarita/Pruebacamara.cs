@@ -12,7 +12,7 @@ public class Pruebacamara : MonoBehaviour
    // public AudioSource doorSound;
    // public AudioSource doorSounderror;
 
-    void Start()
+    /*void Start()
     {
         interactable = false;
     }
@@ -31,9 +31,10 @@ public class Pruebacamara : MonoBehaviour
             PickUp.SetActive(false);
             interactable = false;
         }
-    }
+    }*/
     void Update()
     {  
+        /*
         //if(Input.GetKeyDown(KeyCode.R)){
 
            // Objectactivateodesactivate.SetActive(false);
@@ -71,12 +72,30 @@ public class Pruebacamara : MonoBehaviour
                     //doorSounderror.Play();
                 }
             }
-        }
+        }*/
    
     }
     IEnumerator disableText()
     {
         yield return new WaitForSeconds(1.0f);
         lockedText.SetActive(false);
+    }
+
+    public void abrirMonitor() {
+        toggle = !toggle;
+        if (toggle == true)
+        {
+         Objectactivateodesactivate.SetActive(false); 
+         player.enabled = true;
+        }
+        if (toggle == false)
+        {
+         Objectactivateodesactivate.SetActive(true);
+         player.enabled = false;
+        }
+                    
+                    
+
+
     }
 }

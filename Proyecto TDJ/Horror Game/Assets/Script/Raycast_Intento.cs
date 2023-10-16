@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Raycast_Intento : MonoBehaviour
 {
-    public GameObject logro_reg, logro_regalo;
+    public GameObject logro_reg, logro_regalo, trigger_cuadro;
     public float distancia = 10f;
     public bool puedeagarrar2 = true;
     public LayerMask capainterac;
@@ -76,6 +76,7 @@ public class Raycast_Intento : MonoBehaviour
                 }
                 if (hit.transform.gameObject.tag == "Encendedor")
                 {
+                    trigger_cuadro.SetActive(true);
                     hit.transform.gameObject.SetActive(false);
                     playerInventory.LighterCollected();
                     LighterCollect.Play();
@@ -135,6 +136,11 @@ public class Raycast_Intento : MonoBehaviour
                     Debug.Log("keypad");
                     hit.collider.gameObject.GetComponent<openKeyPad>().abrirKeypad();
 
+                }
+
+                if(hit.transform.gameObject.tag == "monitor") {
+                    Debug.Log("monitor");
+                    hit.collider.gameObject.GetComponent<Pruebacamara>().abrirMonitor();
                 }
             }
             /*if (Physics.Raycast(transform.position, transform.forward, out hit, distancia, capaObjetos))
