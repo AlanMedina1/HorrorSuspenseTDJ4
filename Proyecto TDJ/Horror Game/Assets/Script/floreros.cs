@@ -92,7 +92,7 @@ public class floreros : MonoBehaviour
     void CheckFinal(){
          //tengo  q checkear si los obj estan activos en la escena y en ese caso, cargar la escena
         if ((mRosas.activeInHierarchy == true) && (mVelas.activeInHierarchy == true) && (mRegalos.activeInHierarchy == true)) {
-            SceneManager.LoadScene("Partida2");
+            SceneManager.LoadScene("SceneCutScene");
             //logro_reg.SetActive(false);
         }
 
