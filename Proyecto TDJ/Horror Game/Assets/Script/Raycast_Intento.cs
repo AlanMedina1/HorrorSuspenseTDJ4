@@ -36,6 +36,11 @@ public class Raycast_Intento : MonoBehaviour
         {
             logro_reg.SetActive(false);
         }
+
+         if (logro_regalo.activeInHierarchy == true)
+        {
+            logro_regalo.SetActive(false);
+        }
     }
 
     void Update()
