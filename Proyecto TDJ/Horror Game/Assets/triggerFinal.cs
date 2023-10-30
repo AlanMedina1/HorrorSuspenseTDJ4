@@ -20,7 +20,7 @@ public class triggerFinal : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Final");;
+            SceneManager.LoadScene("SceneCutSceneFinal");;
             
             
         }
