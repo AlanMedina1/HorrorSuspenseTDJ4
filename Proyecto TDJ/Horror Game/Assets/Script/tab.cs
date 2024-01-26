@@ -22,7 +22,7 @@ public class tab : MonoBehaviour
         }
          else
          {
-            Invoke("HojaOff", 0.2f);
+            Invoke("HojaOff", 0.001f);
         }
     }
 
