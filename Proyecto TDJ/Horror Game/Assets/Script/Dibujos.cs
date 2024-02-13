@@ -7,6 +7,10 @@ public class Dibujos : MonoBehaviour
     public GameObject dibujoUI, texto_instructivo;
     public logroDibujo dibujoScript;
 
+    //act tareas en la lista
+    public bool primeraVez = true;
+    public GameObject obj_lista;
+
     public GameObject SonidoPasos;
     public GameObject SonidoCorrer;
     bool toggle; //para validar el interactuar
@@ -21,6 +25,12 @@ public class Dibujos : MonoBehaviour
         
 
     public void abrirCerrarDibujo() {
+        if (primeraVez==true) {
+            obj_lista.SetActive(true);
+            primeraVez = false;
+
+        }
+
         toggle = !toggle;
         if (toggle == false)
         {
