@@ -3905,6 +3905,9 @@ MonoBehaviour:
   dibujoUI: {fileID: 1658827723}
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
+  primeraVez: 1
+  obj_lista: {fileID: 770694581}
+  obj_colectable: {fileID: 770694581}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -10852,6 +10855,9 @@ MonoBehaviour:
   dibujoUI: {fileID: 1233888507}
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
+  primeraVez: 1
+  obj_lista: {fileID: 770694581}
+  obj_colectable: {fileID: 770694581}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -16781,6 +16787,7 @@ Transform:
   - {fileID: 1107229327}
   - {fileID: 1067306257}
   - {fileID: 164103180}
+  - {fileID: 770694582}
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23125,6 +23132,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763047447}
   m_Mesh: {fileID: -2307497853120795835, guid: d31d5ee64aa9842479ca86e6b55394de, type: 3}
+--- !u!1 &770694581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770694582}
+  m_Layer: 0
+  m_Name: empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &770694582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770694581}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 557210538}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771818699
 GameObject:
   m_ObjectHideFlags: 0
@@ -37608,6 +37645,9 @@ MonoBehaviour:
   dibujoUI: {fileID: 1769530040}
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
+  primeraVez: 1
+  obj_lista: {fileID: 770694581}
+  obj_colectable: {fileID: 770694581}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -38520,6 +38560,9 @@ MonoBehaviour:
   dibujoUI: {fileID: 1660825925}
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
+  primeraVez: 1
+  obj_lista: {fileID: 770694581}
+  obj_colectable: {fileID: 770694581}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}

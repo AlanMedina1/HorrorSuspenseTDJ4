@@ -16,12 +16,16 @@ public class PlayerInventory : MonoBehaviour
     public UnityEvent <PlayerInventory> OnGiftsCollected;
     public pickupcosas pickupcosas;
 
+    
+
+
     void Start(){
         
 
     }
     public void RosesCollected ()
     {
+        
         NumberOfRoses++;
         Debug.Log("NumberofRoses: " + NumberOfRoses);
         OnRosesCollected.Invoke(this);

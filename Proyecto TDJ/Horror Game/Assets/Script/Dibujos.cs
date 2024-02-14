@@ -10,6 +10,7 @@ public class Dibujos : MonoBehaviour
     //act tareas en la lista
     public bool primeraVez = true;
     public GameObject obj_lista;
+    public GameObject obj_colectable;
 
     public GameObject SonidoPasos;
     public GameObject SonidoCorrer;
@@ -27,6 +28,7 @@ public class Dibujos : MonoBehaviour
     public void abrirCerrarDibujo() {
         if (primeraVez==true) {
             obj_lista.SetActive(true);
+            obj_colectable.SetActive(true);
             primeraVez = false;
 
         }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0026829087, g: 0.002217361, b: 0.0067098057, a: 1}
+  m_IndirectSpecularColor: {r: 0.002660802, g: 0.0022143777, b: 0.006689949, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13072,6 +13072,7 @@ MonoBehaviour:
   dibujoScript: {fileID: 630335657}
   primeraVez: 1
   obj_lista: {fileID: 1093748678}
+  obj_colectable: {fileID: 1581777545}
   SonidoPasos: {fileID: 1393661214}
   SonidoCorrer: {fileID: 50471470}
   player: {fileID: 113722298}
@@ -13906,7 +13907,7 @@ Transform:
   - {fileID: 641892797}
   - {fileID: 2132880383}
   m_Father: {fileID: 6887134771224263956}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515005781
 GameObject:
@@ -22485,6 +22486,7 @@ MonoBehaviour:
   dibujoScript: {fileID: 630335657}
   primeraVez: 1
   obj_lista: {fileID: 353519012}
+  obj_colectable: {fileID: 353519012}
   SonidoPasos: {fileID: 1393661214}
   SonidoCorrer: {fileID: 50471470}
   player: {fileID: 113722298}
@@ -27940,7 +27942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1110513116
 Transform:
   m_ObjectHideFlags: 0
@@ -28529,13 +28531,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147538581}
-  m_LocalRotation: {x: 0.64525056, y: 0.2892267, z: 0.28922626, w: -0.64525014}
-  m_LocalPosition: {x: 2.944, y: -0.837, z: 9.574}
+  m_LocalRotation: {x: 0.6452506, y: 0.28922677, z: 0.2892263, w: -0.64525014}
+  m_LocalPosition: {x: 25.858292, y: -4.194143, z: -23.311718}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 1219404538}
-  m_Father: {fileID: 1579677247}
-  m_RootOrder: 0
+  m_Father: {fileID: 2017475035}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 311.712}
 --- !u!23 &1147538583
 MeshRenderer:
@@ -37555,6 +37557,7 @@ MonoBehaviour:
   dibujoScript: {fileID: 630335657}
   primeraVez: 1
   obj_lista: {fileID: 171701378}
+  obj_colectable: {fileID: 2017475034}
   SonidoPasos: {fileID: 1393661214}
   SonidoCorrer: {fileID: 50471470}
   player: {fileID: 113722298}
@@ -41058,37 +41061,6 @@ MonoBehaviour:
   mVelas: {fileID: 298792268}
   mRegalos: {fileID: 1396688277}
   playerInventory: {fileID: 113722294}
---- !u!1 &1579677246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1579677247}
-  m_Layer: 0
-  m_Name: Encendedor
-  m_TagString: Encendedor
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1579677247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1579677246}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.3227267, y: 0.73333335, z: 6.8733363}
-  m_LocalScale: {x: 0.46666652, y: 0.4666667, z: 0.31818178}
-  m_Children:
-  - {fileID: 1147538582}
-  m_Father: {fileID: 6887134771224263956}
-  m_RootOrder: 34
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580571162
 GameObject:
   m_ObjectHideFlags: 0
@@ -41183,7 +41155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1581777546
 Transform:
   m_ObjectHideFlags: 0
@@ -41199,7 +41171,7 @@ Transform:
   - {fileID: 5080352445003402774}
   - {fileID: 8596285100504763478}
   m_Father: {fileID: 6887134771224263956}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1581985947
 PrefabInstance:
@@ -51218,6 +51190,7 @@ MonoBehaviour:
   dibujoScript: {fileID: 630335657}
   primeraVez: 1
   obj_lista: {fileID: 1846741215}
+  obj_colectable: {fileID: 1110513115}
   SonidoPasos: {fileID: 1393661214}
   SonidoCorrer: {fileID: 50471470}
   player: {fileID: 113722298}
@@ -53805,12 +53778,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2017475035}
   m_Layer: 0
-  m_Name: Velas
+  m_Name: VelasEnc
   m_TagString: Velas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2017475035
 Transform:
   m_ObjectHideFlags: 0
@@ -53824,6 +53797,7 @@ Transform:
   m_Children:
   - {fileID: 964117183}
   - {fileID: 1842140329}
+  - {fileID: 1147538582}
   m_Father: {fileID: 6887134771224263956}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -65318,7 +65292,6 @@ Transform:
   - {fileID: 1961967857}
   - {fileID: 1518816448}
   - {fileID: 2017475035}
-  - {fileID: 1579677247}
   - {fileID: 1581777546}
   - {fileID: 506935632}
   m_Father: {fileID: 0}
