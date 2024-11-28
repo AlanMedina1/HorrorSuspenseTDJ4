@@ -15,11 +15,11 @@ C:/Users/juanc/Desktop/JUEGO-GITHUB/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52898
+64258
 Successfully changed project path to: C:/Users/juanc/Desktop/JUEGO-GITHUB/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
 C:/Users/juanc/Desktop/JUEGO-GITHUB/HorrorSuspenseTDJ4/Proyecto TDJ/Horror Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002426 seconds.
+Registered in 0.002713 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.566 seconds
+- Completed reload, in  0.571 seconds
 Domain Reload Profiling:
-	ReloadAssembly (566ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (424ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (166ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003918 seconds.
+Registered in 0.004240 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\juanc\Desktop\JUEGO-GITHUB\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  0.975 seconds
 Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (785ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (296ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (206ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,15 +110,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2044 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 102.0 MB.
 System memory in use after: 102.1 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2490.
-Total: 3.558600 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.065400 ms MarkObjects: 3.228600 ms  DeleteObjects: 0.119600 ms)
+Total: 2.599000 ms (FindLiveObjects: 0.132900 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.329900 ms  DeleteObjects: 0.074900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,562 +132,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SceneFinal1.0/Personaje.png
-  artifactKey: Guid(796014d2078ee504093a8a23d1589142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneFinal1.0/Personaje.png using Guid(796014d2078ee504093a8a23d1589142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f141d607376e3d9c3889232cfe27e7') in 0.128367 seconds 
+  path: Assets/SceneNegranene
+  artifactKey: Guid(fb150e46241b06744b293971dfdd389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene using Guid(fb150e46241b06744b293971dfdd389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd550576b413e4265b51baa8275a2f76') in 0.011033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/SceneFinal1.0
-  artifactKey: Guid(1fecbc16049a47045bae1a8c0a82ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneFinal1.0 using Guid(1fecbc16049a47045bae1a8c0a82ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124fc85c41b714e1c765089f8c7ec05c') in 0.009478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/SceneFinal1.0/Animacion_Jackmalo1.0.fbx
-  artifactKey: Guid(26e937c7188f9b34ab2adb4bd8c8f5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneFinal1.0/Animacion_Jackmalo1.0.fbx using Guid(26e937c7188f9b34ab2adb4bd8c8f5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a593a9920729f36f29de1bf7068292') in 0.217093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.844006 seconds.
-  path: Assets/SceneFinal1.0/cam.anim
-  artifactKey: Guid(fa87355a769146d48992f78b1e73f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneFinal1.0/cam.anim using Guid(fa87355a769146d48992f78b1e73f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b8aa6bffb3d14f0027a68536c180b9') in 0.014309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 352.156869 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_Normal.png
-  artifactKey: Guid(083281d80331941689e8b05c1410004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_Normal.png using Guid(083281d80331941689e8b05c1410004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586689e7924eaeef5530e12db8568a98') in 0.025927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_Normal.png
-  artifactKey: Guid(decc30150e184488b87aed813903e624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_Normal.png using Guid(decc30150e184488b87aed813903e624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b80dc98adbbebae8b4c018c9ed5c051') in 0.022813 seconds 
+  Time since last request: 0.000195 seconds.
+  path: Assets/SceneNegranene/NENE.png
+  artifactKey: Guid(1e79277ebf9b18d469915da9cdf8dc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/NENE.png using Guid(1e79277ebf9b18d469915da9cdf8dc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d708ee849917dffb002f9275b7b337') in 0.101165 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000252 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_MetallicSmoothness.png
-  artifactKey: Guid(ebb8e9d46409041209950b576c94c2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_MetallicSmoothness.png using Guid(ebb8e9d46409041209950b576c94c2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373485d02b149548be96af097677e574') in 0.019549 seconds 
+  path: Assets/SceneNegranene/mujeranim1.0.fbx
+  artifactKey: Guid(ae3fb5ffbc9825348b99bba0a9cda70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/mujeranim1.0.fbx using Guid(ae3fb5ffbc9825348b99bba0a9cda70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78086b14a71c28020e454ba09884b357') in 0.192121 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AlbedoTransparency.png
-  artifactKey: Guid(912b24c960a79434695c138fffdf9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AlbedoTransparency.png using Guid(912b24c960a79434695c138fffdf9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d82806288ea0d6b410f74cc4e7738fc') in 0.019054 seconds 
+  Time since last request: 0.000265 seconds.
+  path: Assets/SceneNegranene/Negra.png
+  artifactKey: Guid(f07c841312ac3704fb0316f4a3843fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/Negra.png using Guid(f07c841312ac3704fb0316f4a3843fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15554e8cc1b53b30439545891f2f5c7') in 0.017474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_AlbedoTransparency.png
-  artifactKey: Guid(feb45b79551e3462e9009017965fdc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_AlbedoTransparency.png using Guid(feb45b79551e3462e9009017965fdc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e653130be60f9a576ab221eacb169f7') in 0.020526 seconds 
+  Time since last request: 5.609411 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e4562f397dad1df46968e9cd83bdb980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e4562f397dad1df46968e9cd83bdb980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd645fac921629ea2576ee0cb96fbb007') in 0.010012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_MetallicSmoothness.png
-  artifactKey: Guid(8ed2a69e63cba4a0f84c2ad2dcff1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_MetallicSmoothness.png using Guid(8ed2a69e63cba4a0f84c2ad2dcff1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd073bc5f20367d2a188e76603b503e5') in 0.011892 seconds 
+  Time since last request: 2.056268 seconds.
+  path: Assets/Scenes/SceneCutScene2.unity
+  artifactKey: Guid(1150c7a54057d0944b5b4e34f54aed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneCutScene2.unity using Guid(1150c7a54057d0944b5b4e34f54aed2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb4ef458c2e038d4fd569e8c15ceee') in 0.011067 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_Normal.png
-  artifactKey: Guid(d8c9552f4285d4ca796112eef47c0881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_Normal.png using Guid(d8c9552f4285d4ca796112eef47c0881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd2fe29301a89e8becbff4d4242b07d') in 0.019783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_Normal.png
-  artifactKey: Guid(2d29c55ae1c76492b97578352f248ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_Normal.png using Guid(2d29c55ae1c76492b97578352f248ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fefa08bc9522d00452e2a1e008f22c9') in 0.021351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_MetallicSmoothness.png
-  artifactKey: Guid(d10c54a4acdc840b7a7c94506297e7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_MetallicSmoothness.png using Guid(d10c54a4acdc840b7a7c94506297e7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a012e564ddfe5092032480bb0337eb31') in 0.013154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AO.png
-  artifactKey: Guid(c6a6c9eb2af5f4bd8b3f80200b003d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet02_Material_AO.png using Guid(c6a6c9eb2af5f4bd8b3f80200b003d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5368abe62d17ab2e241b60a09d5d58') in 0.018188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_AO.png
-  artifactKey: Guid(526c0ba64bdac4c35a061eecd44eb0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_AO.png using Guid(526c0ba64bdac4c35a061eecd44eb0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19e67e0a4e63de3ff02027644cf38e1') in 0.020473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AlbedoTransparency.png
-  artifactKey: Guid(16d7b3ccc7cf941ae81fb4f9f6d05cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AlbedoTransparency.png using Guid(16d7b3ccc7cf941ae81fb4f9f6d05cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68bf81d4a473792a9e0c2e272cf2473') in 0.019598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AO.png
-  artifactKey: Guid(c32c54b50821945c6863fbe95ee78d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet02_Material_AO.png using Guid(c32c54b50821945c6863fbe95ee78d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c885bde18ef34a908be562b38bbc301e') in 0.015788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.912870 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_MetallicSmoothness.png
-  artifactKey: Guid(7ca3294d967994b4188cac5f17399c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_MetallicSmoothness.png using Guid(7ca3294d967994b4188cac5f17399c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920eca33400a9b73ea9e8bf899e9f86e') in 0.021254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_MetallicSmoothness.png
-  artifactKey: Guid(217e5b80030b247999ebf8a2f8ec7898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_MetallicSmoothness.png using Guid(217e5b80030b247999ebf8a2f8ec7898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792ad89b5d796893ea9ba5a1467dc3fb') in 0.012884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_MetallicSmoothness.png
-  artifactKey: Guid(8a610a77fa74a47a0897dc8f820f95ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_MetallicSmoothness.png using Guid(8a610a77fa74a47a0897dc8f820f95ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b64dae0224cb02da460a440d471b26a') in 0.010682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.918890 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_AO.png
-  artifactKey: Guid(731032e6279d24437b8f1072561bc835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_AO.png using Guid(731032e6279d24437b8f1072561bc835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c73208390adfb614cf96011b2c1b55d') in 0.021174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_AO.png
-  artifactKey: Guid(396d0f2ccb0954c32bdd5c28c0db4e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_AO.png using Guid(396d0f2ccb0954c32bdd5c28c0db4e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a32ce37165f51e20f622c650a70f179') in 0.017736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AO.png
-  artifactKey: Guid(7c7dd1f0698ca40e69ed529d91490707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AO.png using Guid(7c7dd1f0698ca40e69ed529d91490707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2256156979ac71121eae13f24ac7c7e0') in 0.016386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AlbedoTransparency.png
-  artifactKey: Guid(02386a872f51940bfbc5643f1b1eece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AlbedoTransparency.png using Guid(02386a872f51940bfbc5643f1b1eece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7cfe9a60a6f0b8b92a82366447e341') in 0.018180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_AlbedoTransparency.png
-  artifactKey: Guid(6a3c2d68fa6c94f53801bf8c9a52b1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version03/FreeCabinet01_Material_AlbedoTransparency.png using Guid(6a3c2d68fa6c94f53801bf8c9a52b1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96ad82bf600ffd9f95e232eeff278ee') in 0.020161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2D_BaseColor.tga
-  artifactKey: Guid(bc479da0ad59e3f4180fba37878275f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2D_BaseColor.tga using Guid(bc479da0ad59e3f4180fba37878275f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5714352629537c3de0bed3223685a25') in 0.087008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_AlbedoTransparency.png
-  artifactKey: Guid(e409a0344917842b1a1aa1224276c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen/Package04_Free_Kitchen/FreeKitchen/Textures/Version02/FreeCabinet01_Material_AlbedoTransparency.png using Guid(e409a0344917842b1a1aa1224276c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad10de6bcd620168cb99ee5754dd76f') in 0.017070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2D_mask.tga
-  artifactKey: Guid(d6c5dcab38d2a04459dc873b609af790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2D_mask.tga using Guid(d6c5dcab38d2a04459dc873b609af790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0255c25146ae3160527bac40a4914b') in 0.023147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2D_Normal.tga
-  artifactKey: Guid(69935d7f86f2bed45886b2eb30177bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2D_Normal.tga using Guid(69935d7f86f2bed45886b2eb30177bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432873554da831e23ac3f1e1b5fd5294') in 0.019201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.181859 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2_BaseColor.tga
-  artifactKey: Guid(5b9b4fdfc5a761b4b8b0a55a03597a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2_BaseColor.tga using Guid(5b9b4fdfc5a761b4b8b0a55a03597a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33618633b2958751a4e5f2440101c94d') in 0.026816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2_Normal.tga
-  artifactKey: Guid(df33d9bee18fb4d4996dcb12d1f0c3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2_Normal.tga using Guid(df33d9bee18fb4d4996dcb12d1f0c3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3340ac86f9fc838099f03c0a548e9b8') in 0.022266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Furniture/Source/Textures/fotel2_mask.tga
-  artifactKey: Guid(0fb7f90caa5da0a47a20c31f8d66dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/fotel2_mask.tga using Guid(0fb7f90caa5da0a47a20c31f8d66dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d37876cb9b1d5542bb86cdd3363a9f') in 0.025092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.267853 seconds.
-  path: Assets/Materials/Materials/fondo-blanco-texturas-pared-ladrillo_1203-6588.png
-  artifactKey: Guid(7aed0f6097dea2b4da6e911edc76f008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/fondo-blanco-texturas-pared-ladrillo_1203-6588.png using Guid(7aed0f6097dea2b4da6e911edc76f008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1112d543fa7fad2da6e135e33fc3686e') in 0.022828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Materials/Materials/fondo-blanco-texturas-pared-ladrillo_1203-6588.jpg
-  artifactKey: Guid(0572724a5aeaf6749b307326167035ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/fondo-blanco-texturas-pared-ladrillo_1203-6588.jpg using Guid(0572724a5aeaf6749b307326167035ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3b9a4fd16776a80629fce8de7b231c') in 0.017514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.286843 seconds.
-  path: Assets/PrefabsUSADOS}/Dibujos/dibujo3.png
-  artifactKey: Guid(f24917d119c81b54198146301c67c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo3.png using Guid(f24917d119c81b54198146301c67c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d91bf518c95516dbf62e6324de6fbdc') in 0.027171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.206366 seconds.
-  path: Assets/PrefabsUSADOS}/Dibujos/dibujo1.png
-  artifactKey: Guid(c5bbca9fe039b894d8032ca3932c7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo1.png using Guid(c5bbca9fe039b894d8032ca3932c7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd75591a34f23f25ef6e9af567b88e2f') in 0.021306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/PrefabsUSADOS}/Dibujos/dibujo2.png
-  artifactKey: Guid(e0dc609d43fb76547854b79e82ab6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsUSADOS}/Dibujos/dibujo2.png using Guid(e0dc609d43fb76547854b79e82ab6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bef858128c39d8d96ae3e27f7c88c6') in 0.021092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.361842 seconds.
-  path: Assets/Furniture/Source/Textures/couch_mask.tga
-  artifactKey: Guid(49ec408c83351b34490bba7a2e7b7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/couch_mask.tga using Guid(49ec408c83351b34490bba7a2e7b7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23dcc440aca6a9e810a7f48ac72a3ab') in 0.021170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Furniture/Source/Textures/couch_Normal.tga
-  artifactKey: Guid(f201115348ec8204cb59b00508377eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/couch_Normal.tga using Guid(f201115348ec8204cb59b00508377eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcb63f5f626179f89c02b55c8fcdecc') in 0.019264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Furniture/Source/Textures/couch_BaseColor.tga
-  artifactKey: Guid(bb72810a10bdd4845b4c38addff488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/couch_BaseColor.tga using Guid(bb72810a10bdd4845b4c38addff488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c0fccac153aafb5973396bea8e293') in 0.016754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Materials/cosoalfombra.png
-  artifactKey: Guid(c662305a08322eb4b92efe2331447d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/cosoalfombra.png using Guid(c662305a08322eb4b92efe2331447d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25de74587a783247ec86944454d04ef7') in 0.017079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.214328 seconds.
-  path: Assets/Furniture/Source/Textures/closet_Normal.tga
-  artifactKey: Guid(2d2dac88e37b65f4fae79adc3d8ce43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet_Normal.tga using Guid(2d2dac88e37b65f4fae79adc3d8ce43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f9d0b45aa32390cbe99d92c0fd69a6') in 0.020056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017878 seconds.
-  path: Assets/Furniture/Source/Textures/closet3_Normal.png
-  artifactKey: Guid(9b9805e3413e736459fea4fb7f7cbccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet3_Normal.png using Guid(9b9805e3413e736459fea4fb7f7cbccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ba74c791f41ba020a243f91154728f') in 0.017150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Furniture/Source/Textures/closet_mask.tga
-  artifactKey: Guid(d341078a1b455be4f9a278550b31fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet_mask.tga using Guid(d341078a1b455be4f9a278550b31fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047375b516c02505da551a5b6ece64f') in 0.017959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Furniture/Source/Textures/closet_BaseColor.tga
-  artifactKey: Guid(b30fe4002f5cf234e8a13f459c809505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet_BaseColor.tga using Guid(b30fe4002f5cf234e8a13f459c809505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80652c9c12c7815b76f93df9d48f2d9') in 0.016324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.141562 seconds.
-  path: Assets/Furniture/Source/Textures/closet2_Normal.png
-  artifactKey: Guid(cdd8f54c64236c74ea519dc146c6579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet2_Normal.png using Guid(cdd8f54c64236c74ea519dc146c6579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e747cf934f0d18e2743290b2a64d59af') in 0.030859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Materials/Textures/close-up-image-fresh-spring-green-grass.jpg
-  artifactKey: Guid(033af4ff0df55774f8c627ff150ae6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/close-up-image-fresh-spring-green-grass.jpg using Guid(033af4ff0df55774f8c627ff150ae6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f1f09db26125233c1a4f5a77e20645') in 0.017198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Furniture/Source/Textures/closet2_mask.tga
-  artifactKey: Guid(ed44f9274d13c3146abc4b9fcf4e7c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet2_mask.tga using Guid(ed44f9274d13c3146abc4b9fcf4e7c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6284a8b4b8b5cb27cd8f4ddedd2cf0') in 0.023181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Furniture/Source/Textures/closet3_mask.tga
-  artifactKey: Guid(0a92627edb3f2114c857823f98e99c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet3_mask.tga using Guid(0a92627edb3f2114c857823f98e99c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf09c4c45f2c1121a44f29a81153d80') in 0.018111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Furniture/Source/Textures/closet3_BaseColor.tga
-  artifactKey: Guid(cd212f4fadebc22448a1e2e0b71802a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet3_BaseColor.tga using Guid(cd212f4fadebc22448a1e2e0b71802a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bd43d69a373eca11baa28882f65049') in 0.017755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Furniture/Source/Textures/closet2_BaseColor.tga
-  artifactKey: Guid(3cf2e71fd5326784aba059aa990ce25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet2_BaseColor.tga using Guid(3cf2e71fd5326784aba059aa990ce25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066e375fb9f5df027e09637197c16baa') in 0.018457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.454371 seconds.
-  path: Assets/Furniture/Source/Textures/chair_chair_Metallic.tga
-  artifactKey: Guid(8cc7c3d1a987f8944896f44f18284a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/chair_chair_Metallic.tga using Guid(8cc7c3d1a987f8944896f44f18284a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dc831efb6ba458f8acc057e9ad4c2f') in 0.019267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Furniture/Source/Textures/chair_chair_Normal.png
-  artifactKey: Guid(071983e8e477c2a438d2549a597b08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/chair_chair_Normal.png using Guid(071983e8e477c2a438d2549a597b08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b5006c552d4e93357a7d009cc656d3') in 0.021867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.198302 seconds.
-  path: Assets/Furniture/Source/Textures/chair_chair_Albedo.tga
-  artifactKey: Guid(4ba86f10635d7034cac10dda5fb0e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/chair_chair_Albedo.tga using Guid(4ba86f10635d7034cac10dda5fb0e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876dfa55c1ddd305e429594fa6b9df17') in 0.025063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.115033 seconds.
-  path: Assets/Materials/Textures/BrickMessy0175_5_S.jpg
-  artifactKey: Guid(1c50bae2606a3154a8bb503c19023b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/BrickMessy0175_5_S.jpg using Guid(1c50bae2606a3154a8bb503c19023b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eaa3d27c527e3543db30433a92eb20') in 0.015085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.506150 seconds.
-  path: Assets/Materials/alternative.PNG
-  artifactKey: Guid(d8468ec6c986489458ed841d3b92fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/alternative.PNG using Guid(d8468ec6c986489458ed841d3b92fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca37f81762ff374d720f2bdabb1cd84') in 0.031287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.466279 seconds.
-  path: Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga
-  artifactKey: Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga using Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e9c9c66234d7f665886249a7c783d4') in 0.026790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat_Normal.tga
-  artifactKey: Guid(e56d8a29b833bb9448ec149fdde0871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat_Normal.tga using Guid(e56d8a29b833bb9448ec149fdde0871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a5b82e1269ed54e3e9330a02d78a2a') in 0.021640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000599 seconds.
-  path: Assets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga
-  artifactKey: Guid(5e44a7f75c2b6cb4893079118e51e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3SeatDirt_BaseColor.tga using Guid(5e44a7f75c2b6cb4893079118e51e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f065cc00bd0174f822e77becf2090e0') in 0.018902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat_BaseColor.tga
-  artifactKey: Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat_BaseColor.tga using Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaaef55bd3e441975191ac323134160') in 0.017969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat_mask.tga
-  artifactKey: Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat_mask.tga using Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7e6af56b81fcb230418d3819db4a97') in 0.032542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2D_Normal.tga
-  artifactKey: Guid(26b4462436ee216469164696286f99eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2D_Normal.tga using Guid(26b4462436ee216469164696286f99eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7931609f3604d22530a9136e24f9b5e6') in 0.026036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Furniture/Source/Textures/3SeatDirt_mask.tga
-  artifactKey: Guid(5a44fcec9a83a9b4ba369b5dfab3a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3SeatDirt_mask.tga using Guid(5a44fcec9a83a9b4ba369b5dfab3a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574531f3514c0e0d2b09d95423d4c324') in 0.025908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.099329 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2_Normal.tga
-  artifactKey: Guid(e7a62a18c972ca44abc3148673336008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2_Normal.tga using Guid(e7a62a18c972ca44abc3148673336008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9164889904b73d9e55f6fe2bea67576f') in 0.062552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2D_mask.tga
-  artifactKey: Guid(49d9243b26fef7849beb17dd739b254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2D_mask.tga using Guid(49d9243b26fef7849beb17dd739b254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af990197c03b64bd5ada00a25ba0c3ad') in 0.035841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga
-  artifactKey: Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga using Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9135de0e48e3a8839ca6a2a5b5c404') in 0.018856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2_mask.tga
-  artifactKey: Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2_mask.tga using Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db156b5ad177b410e48fd55dd7d4bd00') in 0.021438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2D_BaseColor.tga
-  artifactKey: Guid(81f0e90dc8142c943a860a051695d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2D_BaseColor.tga using Guid(81f0e90dc8142c943a860a051695d76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e00dab54a4e3b7e58503d348dd2318') in 0.016987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.091437 seconds.
-  path: Assets/Furniture/Source/Textures/2SeatD_mask.tga
-  artifactKey: Guid(f1d33e39cf03d834ba5ac2aaf7260c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2SeatD_mask.tga using Guid(f1d33e39cf03d834ba5ac2aaf7260c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91e6c8856ba90f65eca7238a4b96f6f') in 0.051200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Furniture/Source/Textures/2SeatD_Normal.tga
-  artifactKey: Guid(88edae7faff09cd4492fcd83e23080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2SeatD_Normal.tga using Guid(88edae7faff09cd4492fcd83e23080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9d5c3d07186d7536b7333e28da89f5') in 0.024927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.140946 seconds.
-  path: Assets/Furniture/Source/Textures/2Seat_mask.tga
-  artifactKey: Guid(4fce1f5a96537384c8f15944e2449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2Seat_mask.tga using Guid(4fce1f5a96537384c8f15944e2449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3390ee861556058b676c23437aea81ef') in 0.036193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Furniture/Source/Textures/2SeatD_BaseColor.tga
-  artifactKey: Guid(ec322fd5963e8974fbc52de2bb31d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2SeatD_BaseColor.tga using Guid(ec322fd5963e8974fbc52de2bb31d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81760d1f42650dca8b07171273907a1') in 0.017092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Materials/1-24.png
-  artifactKey: Guid(3a08c37d5313e464998b8331ff3a7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/1-24.png using Guid(3a08c37d5313e464998b8331ff3a7ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448a246664dff304d62e0741cbc568ff') in 0.016047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Furniture/Source/Textures/2Seat_BaseColor.tga
-  artifactKey: Guid(6efeba75555bc534e893eedd901158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2Seat_BaseColor.tga using Guid(6efeba75555bc534e893eedd901158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12ce808b56b92e0bf4c2fc54c012fcb') in 0.018003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Furniture/Source/Textures/2Seat_Normal.tga
-  artifactKey: Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2Seat_Normal.tga using Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40481b10585be064da428ad59ab57137') in 0.018294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Materials/1-24.jpg
-  artifactKey: Guid(e88e8ad313f0f7a4ca490848afc72e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/1-24.jpg using Guid(e88e8ad313f0f7a4ca490848afc72e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86debd19c4bb808c129c1849969455f3') in 0.015027 seconds 
+  Time since last request: 0.776270 seconds.
+  path: Assets/Scenes/SceneCutScene.unity
+  artifactKey: Guid(2ece28c5875b3154fbd77b08703ebabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneCutScene.unity using Guid(2ece28c5875b3154fbd77b08703ebabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d323644dded2d9a867918e3af512c5') in 0.010190 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003660 seconds.
+Registered in 0.004112 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\juanc\Desktop\JUEGO-GITHUB\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
+- Completed reload, in  1.000 seconds
 Domain Reload Profiling:
-	ReloadAssembly (927ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (252ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1974 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.5 MB.
-System memory in use after: 112.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 2.623200 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.381400 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004536 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\juanc\Desktop\JUEGO-GITHUB\HorrorSuspenseTDJ4\Proyecto TDJ\Horror Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (767ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (274ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (192ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (195ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1974 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.5 MB.
-System memory in use after: 112.6 MB.
+System memory in use before: 112.4 MB.
+System memory in use after: 112.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 3.571100 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.082100 ms MarkObjects: 3.262300 ms  DeleteObjects: 0.025300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 2.794400 ms (FindLiveObjects: 0.143000 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.562300 ms  DeleteObjects: 0.020000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -699,4 +228,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 403.819668 seconds.
+  path: Assets/SceneNegranene/2.0
+  artifactKey: Guid(ea3ecf5baf4a5be4fb999bd13f495897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/2.0 using Guid(ea3ecf5baf4a5be4fb999bd13f495897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3bf88070e28f28b68022dc034e76c2') in 0.012522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.894601 seconds.
+  path: Assets/SceneNegranene/2.0/mujeranim1.0.fbx
+  artifactKey: Guid(deeae91cc9feaa045b9af2bf7be386e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/2.0/mujeranim1.0.fbx using Guid(deeae91cc9feaa045b9af2bf7be386e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695c0b1497dd464c8efef7d5764b427e') in 0.176621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 257.509244 seconds.
+  path: Assets/SceneNegranene/2.0/mujeranim2.0.fbx
+  artifactKey: Guid(fca24e52228748543b2f64d503be45de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/2.0/mujeranim2.0.fbx using Guid(fca24e52228748543b2f64d503be45de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5962247f9c13a3cc8def17708910b853') in 0.119221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 423.767472 seconds.
+  path: Assets/SceneNegranene/2.0/mujeranim3.0.fbx
+  artifactKey: Guid(dd71a782e67e20f4db8db9066fc15efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/2.0/mujeranim3.0.fbx using Guid(dd71a782e67e20f4db8db9066fc15efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ecce4835a33e09ae9346f5930422a7') in 0.012868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.348339 seconds.
+  path: Assets/SceneNegranene/2.0/mujeranim3.0.fbx
+  artifactKey: Guid(dd71a782e67e20f4db8db9066fc15efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneNegranene/2.0/mujeranim3.0.fbx using Guid(dd71a782e67e20f4db8db9066fc15efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33568a766726e8dc347a64c892ac20b4') in 0.096325 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
