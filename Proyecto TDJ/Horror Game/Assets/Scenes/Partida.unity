@@ -897,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lamp_sofi (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 39f8aecc47f3a4c408d92255010212a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: 39f8aecc47f3a4c408d92255010212a1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17316,7 +17320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &640201741
 Transform:
   m_ObjectHideFlags: 0
@@ -26213,7 +26217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1026365293
 Transform:
   m_ObjectHideFlags: 0
@@ -45894,7 +45898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1762417930
 AudioSource:
   m_ObjectHideFlags: 0
@@ -51978,7 +51982,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943364883}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 647868410396f9945b1ebc8f97d6a1b1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d02dfadca4aa7f749b078f02db863e42, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -51990,18 +51994,16 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_AudioOutputMode: 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -55263,7 +55265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2050917109
 Transform:
   m_ObjectHideFlags: 0

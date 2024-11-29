@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
+using UnityEngine.Video;
 
 public class Pruebacamara : MonoBehaviour
 {
@@ -32,8 +34,35 @@ public class Pruebacamara : MonoBehaviour
             interactable = false;
         }
     }*/
+    public class PlayVideoOnKeyPress : MonoBehaviour
+{
+    private VideoPlayer videoPlayer;
+
+    void Start()
+    {
+        // Obtén el componente VideoPlayer
+        videoPlayer = GetComponent<VideoPlayer>();
+        if (videoPlayer != null)
+        {
+            videoPlayer.Pause(); // Asegúrate de que el video esté pausado al inicio
+        }
+    }
+
+
     void Update()
     {  
+        // Revisa si se presiona la tecla E
+        if (Input.GetKeyDown(KeyCode.E) && videoPlayer != null)
+        {
+            if (videoPlayer.isPlaying)
+            {
+                videoPlayer.Pause(); // Pausa si ya se está reproduciendo
+            }
+            else
+            {
+                videoPlayer.Play(); // Reproduce si está pausado
+            }
+        }
         /*
         //if(Input.GetKeyDown(KeyCode.R)){
 
