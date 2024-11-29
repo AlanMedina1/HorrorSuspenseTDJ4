@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 173
+  controlID: 321
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 174
+  controlID: 322
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 97
+  controlID: 323
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 98
+  controlID: 324
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 175
+  controlID: 242
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -413,8 +413,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -427,18 +427,18 @@ MonoBehaviour:
       y: 21
       width: 816
       height: 535
-    m_Scale: {x: 0.5413045, y: 0.5413045}
-    m_Translation: {x: 408.00006, y: 266.1555}
+    m_Scale: {x: 0.425, y: 0.425}
+    m_Translation: {x: 408, y: 267.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -753.7348
-      y: -491.69272
-      width: 1507.4694
-      height: 988.3531
+      x: -960
+      y: -629.41174
+      width: 1920
+      height: 1258.8235
     m_MinimalGUI: 1
   m_defaultScale: 0.425
   m_LastWindowPixelSize: {x: 816, y: 556}
@@ -474,10 +474,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c2840000
-      m_LastClickedID: 33986
-      m_ExpandedIDs: cee9ffff92eaffff5eebffff1aeeffff42fbffff20830000
+      scrollPos: {x: 0, y: 987}
+      m_SelectedIDs: ccafffff
+      m_LastClickedID: -20532
+      m_ExpandedIDs: a4b3ffff4af9ffff42fbffff0c4900008e4c0000504f00007ae10000a2e30000a6ea0000aaee00004af30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 345.17154, y: 37.320976, z: -39.844612}
+    m_Target: {x: -288.2052, y: -83.982445, z: 607.92334}
     speed: 2
-    m_Value: {x: 345.17154, y: 37.320976, z: -39.844612}
+    m_Value: {x: -288.2052, y: -83.982445, z: 607.92334}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -586,13 +586,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.020851986, y: 0.75084174, z: 0.023594435, w: 0.66012377}
+    m_Target: {x: 0.06699234, y: -0.23953028, z: 0.016432036, w: 0.9687035}
     speed: 2
-    m_Value: {x: -0.020881945, y: 0.7496565, z: 0.02355703, w: 0.66107804}
+    m_Value: {x: 0.06699952, y: -0.23801516, z: 0.01632729, w: 0.9688102}
   m_Size:
-    m_Target: 221.11914
+    m_Target: 319.27994
     speed: 2
-    m_Value: 221.11914
+    m_Value: 305.53104
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1064,23 +1064,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\juanc\Desktop\JUEGO-GITHUB\HorrorSuspenseTDJ4\Proyecto
     TDJ\Horror Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 117}
-    m_SelectedIDs: f6660000
-    m_LastClickedID: 26358
-    m_ExpandedIDs: 000000009e66000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: d0470000
+    m_LastClickedID: 18384
+    m_ExpandedIDs: 00000000d04700000c4800000e48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1108,7 +1108,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e660000
+    m_ExpandedIDs: 00000000d047000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
