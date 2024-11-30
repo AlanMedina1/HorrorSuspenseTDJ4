@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.000083484236, g: 0.000043736785, b: 0.00015191759, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -42255,7 +42255,7 @@ GameObject:
   - component: {fileID: 1221319585}
   - component: {fileID: 1221319584}
   m_Layer: 10
-  m_Name: cubo
+  m_Name: candado_electronico
   m_TagString: keypad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42269,8 +42269,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221319579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -151.71, y: 21.8, z: 90.16}
-  m_LocalScale: {x: 1.4487482, y: 2.2203, z: 1}
+  m_LocalPosition: {x: -151.71, y: 21.8, z: 90.1}
+  m_LocalScale: {x: 1.4487482, y: 2.2203, z: 0.28562}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 36
@@ -42307,7 +42307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bc426d3d334fcee41a3d1ffb460790e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
