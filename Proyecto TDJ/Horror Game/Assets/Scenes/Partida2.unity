@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.000083484236, g: 0.000043736785, b: 0.00015191759, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3922,11 +3922,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dibujoUI: {fileID: 1658827723}
-  texto_instructivo: {fileID: 426626348}
+  texto_instructivo: {fileID: 1840168825}
   dibujoScript: {fileID: 0}
   primeraVez: 1
-  obj_lista: {fileID: 770694581}
-  obj_colectable: {fileID: 770694581}
+  obj_lista: {fileID: 0}
+  obj_colectable: {fileID: 0}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -7034,6 +7034,7 @@ RectTransform:
   - {fileID: 426626349}
   - {fileID: 1758052173}
   - {fileID: 2093150430}
+  - {fileID: 1840168826}
   m_Father: {fileID: 828913361}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10948,8 +10949,8 @@ MonoBehaviour:
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
   primeraVez: 1
-  obj_lista: {fileID: 770694581}
-  obj_colectable: {fileID: 770694581}
+  obj_lista: {fileID: 0}
+  obj_colectable: {fileID: 0}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -16879,7 +16880,6 @@ Transform:
   - {fileID: 1107229327}
   - {fileID: 1067306257}
   - {fileID: 164103180}
-  - {fileID: 770694582}
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23224,36 +23224,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763047447}
   m_Mesh: {fileID: -2307497853120795835, guid: d31d5ee64aa9842479ca86e6b55394de, type: 3}
---- !u!1 &770694581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 770694582}
-  m_Layer: 0
-  m_Name: empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &770694582
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770694581}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 557210538}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771818699
 GameObject:
   m_ObjectHideFlags: 0
@@ -37826,8 +37796,8 @@ MonoBehaviour:
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
   primeraVez: 1
-  obj_lista: {fileID: 770694581}
-  obj_colectable: {fileID: 770694581}
+  obj_lista: {fileID: 0}
+  obj_colectable: {fileID: 0}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -38741,8 +38711,8 @@ MonoBehaviour:
   texto_instructivo: {fileID: 426626348}
   dibujoScript: {fileID: 0}
   primeraVez: 1
-  obj_lista: {fileID: 770694581}
-  obj_colectable: {fileID: 770694581}
+  obj_lista: {fileID: 0}
+  obj_colectable: {fileID: 0}
   SonidoPasos: {fileID: 1303444302}
   SonidoCorrer: {fileID: 1765502799}
   player: {fileID: 1664266548}
@@ -63370,6 +63340,85 @@ Transform:
   m_Father: {fileID: 66853346}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1840168825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840168826}
+  - component: {fileID: 1840168828}
+  - component: {fileID: 1840168827}
+  m_Layer: 5
+  m_Name: instructivo_P2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1840168826
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840168825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 267021555}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 29, y: -317}
+  m_SizeDelta: {x: 1503.4695, y: 323.262}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1840168827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840168825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ff207b3023b014c4ba02d46951e34913, type: 3}
+    m_FontSize: 81
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 135
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Hmm... la linterna parece revelar algo.  \nTengo que saber qu\xE9."
+--- !u!222 &1840168828
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840168825}
+  m_CullTransparentMesh: 1
 --- !u!1 &1841787830
 GameObject:
   m_ObjectHideFlags: 0
