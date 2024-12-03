@@ -6,8 +6,8 @@ public class Flashlight : MonoBehaviour
 {
     [SerializeField] GameObject FlashlightLight;
     private bool FlashlightActive = false;
-    public AudioSource turnOnsound;
-    public AudioSource turnOffsound;
+    //public AudioSource turnOnsound;
+    //public AudioSource turnOffsound;
 
     // Start is called before the first frame update
     void Start()
@@ -42,12 +42,12 @@ public class Flashlight : MonoBehaviour
     {
         FlashlightLight.SetActive(true);
         FlashlightActive = true;
-        turnOnsound.Play();
+        //turnOnsound.Play();
     }
     public void LightOff()
     {
         FlashlightLight.SetActive(false);
         FlashlightActive = false;
-        turnOffsound.Play();
+        //turnOffsound.Play();
     }
 }
